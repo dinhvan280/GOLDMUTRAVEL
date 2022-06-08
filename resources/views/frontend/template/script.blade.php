@@ -302,6 +302,11 @@
             $(window).scrollTop(0);
         });
 
+        $("body").on('click', "div#menu-toggle", function () {
+           $('nav.menu').toggleClass('active');
+        });
+
+
         $("body").on('click', "div.point_pickup", function () {
             let id = $(this).data('id');
             let time = $(this).data('time');

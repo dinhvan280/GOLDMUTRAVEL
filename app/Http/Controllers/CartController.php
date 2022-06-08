@@ -54,17 +54,17 @@ class CartController extends Controller
             $list_ghe = Cache::get($key);
 
 //            dd($list_ghe);
-            $soVe = count($list_ghe);
 
-            $chuyenInfo = VeChuyen::join('chuyen_ngay', 've_chuyen.ma_cn', '=', 'chuyen_ngay.id')
-                ->join('ghe_xe', 'ghe_xe.id', '=', 've_chuyen.ma_gx')
-                ->join('xe', 'xe.id', '=', 'chuyen_ngay.ma_xe')
-                ->join('loai_xe', 'xe.ma_lx', '=', 'loai_xe.id')
-                ->join('chuyen', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
-                ->where('chuyen_ngay.id', $id)
-                ->first();
+                $soVe = count($list_ghe);
+                $chuyenInfo = VeChuyen::join('chuyen_ngay', 've_chuyen.ma_cn', '=', 'chuyen_ngay.id')
+                    ->join('ghe_xe', 'ghe_xe.id', '=', 've_chuyen.ma_gx')
+                    ->join('xe', 'xe.id', '=', 'chuyen_ngay.ma_xe')
+                    ->join('loai_xe', 'xe.ma_lx', '=', 'loai_xe.id')
+                    ->join('chuyen', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
+                    ->where('chuyen_ngay.id', $id)
+                    ->first();
 
-            $chuyenDetail = Cache::get($key . '_detail') ?? [];
+                $chuyenDetail = Cache::get($key . '_detail') ?? [];
 //            if(!$chuyenDetail){
                 $ttChuyen = [
                     "ma_cn" => $id,
@@ -85,6 +85,8 @@ class CartController extends Controller
                 ];
                 $veDat[] = $ttChuyen;
                 Cache::put($key . '_detail', $ttChuyen, now()->addHours(24));
+
+
 //            } else {
 //                $veDat[] = $chuyenDetail;
 //            }

@@ -45,7 +45,7 @@
     <div class="home-content">
         <div class="header-nav">
             <nav class="menu sticky">
-                <div class="toggle"><span></span></div>
+                <div class="toggle" id="menu-toggle"><span></span></div>
                 <h1 id="logo">
                     <a routerlink="/" routerlinkactive="active" href="/" class="active">
                         <img src="{{asset('images/image/logo.png')}}" alt="KIMLONGTRAVEL">

@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-12 col-lg-3">
                     <div class="footer-item"><a routerlink="/" routerlinkactive="active" href="/"
-                                                class="active"><img src="/assets/images/logo.svg" alt="SWIO"
+                                                class="active"><img src="{{asset('images/image/logo.png')}}" alt="SWIO"
                                                                     class="logo"></a>
                         <p>KIMLONG - Trang bán vé xe khách trực tuyến hàng đầu tại Việt Nam.</p>
                         <div class="social"><h5>Kết nối với chúng tôi</h5>
