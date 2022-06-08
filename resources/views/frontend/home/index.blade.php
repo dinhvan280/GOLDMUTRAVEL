@@ -254,7 +254,7 @@
                 <div class="col-12 col-lg-4 mb-3">
                     <div class="why-swio-item"><img src="/assets/images/why2.svg" alt="Giữ chỗ 100%">
                         <div class="content"><h5>Giữ chỗ 100%</h5>
-                            <p class="des">Cam kết giữ chỗ 100% khi đặt vé tại swio.vn</p></div>
+                            <p class="des">Cam kết giữ chỗ 100% khi đặt vé tại kimlong.info</p></div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 mb-3">

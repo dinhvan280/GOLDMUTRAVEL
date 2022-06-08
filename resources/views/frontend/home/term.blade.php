@@ -16,10 +16,10 @@
                 </div>
                 <div class="col-12 col-lg-9">
                     <div class="support-page-content history wysiwyg"><p style="text-align: justify;">Khi Người mua truy
-                            cập vào website kimlongtravel.com có nghĩa là Người mua đã đồng ý với Điều Khoản Sử Dụng này. Chúng
+                            cập vào website kimlongtravel.info có nghĩa là Người mua đã đồng ý với Điều Khoản Sử Dụng này. Chúng
                             tôi có quyền thay đổi, chỉnh sửa, thêm hoặc lược bỏ bất kỳ phần nào trong Điều Khoản Sử Dụng
                             này vào bất cứ thời điểm nào. Các thay đổi có hiệu lực ngay khi được đăng trên website
-                            kimlongtravel.com mà không cần thông báo trước. Và khi Người mua tiếp tục sử dụng website kimlongtravel.com, sau
+                            kimlongtravel.info mà không cần thông báo trước. Và khi Người mua tiếp tục sử dụng website kimlongtravel.info, sau
                             khi các thay đổi về Điều Khoản Sử Dụng này được đăng tải, có nghĩa là Người mua chấp nhận
                             với những thay đổi đó.</p>
                         <p style="text-align: justify;">Người mua vui lòng kiểm tra thường xuyên để cập nhật những thay
@@ -30,7 +30,7 @@
                             dưới đây sẽ có ý nghĩa như sau:</p>
                         <p style="text-align: justify;">"<em><strong>KimLongTravel</strong></em>" và "<em><strong>Chúng
                                     tôi</strong></em>": có nghĩa là Công ty TNHH Dịch Vụ Thương Mại Kim Long, đơn vị sở hữu Trang bán vé trực
-                            tuyến kimlongtravel.com.</p>
+                            tuyến kimlongtravel.info.</p>
                         <p style="text-align: justify;">"<em><strong>Khách hàng</strong></em>" và "<em><strong>Người
                                     mua</strong></em>": có nghĩa là (các) cá nhân/đơn vị đặt vé trực tuyến hoặc đặt vé
                             qua hotline của KimLongTravel.</p>
@@ -129,7 +129,7 @@
                         <p>- Thời điểm Người mua gọi điện đến số điện thoại nóng 1900.20.53 (từ Thứ Hai đến thứ Sáu
                             08:00 - 17:00) để thông báo hủy vé và được nhân viên tổng đài KimLongTravel xác nhận yêu cầu;
                             hoặc</p>
-                        <p>- Thời điểm Người mua nhấn nút xác nhận hủy đơn hàng trên hệ thống kimlongtravel.com.</p>
+                        <p>- Thời điểm Người mua nhấn nút xác nhận hủy đơn hàng trên hệ thống kimlongtravel.info.</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 2. NGUYÊN TẮC HOẠT ĐỘNG CỦA KIMLONGTRAVEL</span></strong></h2>
                         <p style="text-align: justify;">Các tổ chức, cá nhân tham gia giao dịch trên KimLongTravel phải tôn trọng
@@ -148,12 +148,12 @@
                             thay thế theo thời gian, tạo thành một phần không tách rời của thỏa thuận mua bán giữa KimLongTravel
                             và người mua vé. Những nội dung nào chưa được quy định rõ trong văn bản này, hoặc có bất kỳ
                             sự đối lập nào sẽ được áp dụng theo các quy định và pháp luật hiện hành có liên quan.</p>
-                        <p style="text-align: justify;">Khi đặt vé tại kimlongtravel.com, Người mua phải đảm bảo đủ 18 tuổi, hoặc
+                        <p style="text-align: justify;">Khi đặt vé tại kimlongtravel.info, Người mua phải đảm bảo đủ 18 tuổi, hoặc
                             truy cập dưới sự giám sát của cha mẹ hay người giám hộ hợp pháp. Người mua đảm bảo có đầy đủ
                             hành vi dân sự để thực hiện các giao dịch mua bán hàng hóa theo quy định hiện hành của pháp
                             luật Việt Nam.</p>
                         <p style="text-align: justify;">Người mua có thể đăng kí một tài khoản sử dụng để có thể đặt vé
-                            trên website kimlongtravel.com trong khuôn khổ Điều Khoản Sử Dụng đã đề ra (hoặc giao dịch không cần
+                            trên website kimlongtravel.info trong khuôn khổ Điều Khoản Sử Dụng đã đề ra (hoặc giao dịch không cần
                             đăng kí tài khoản).</p>
                         <p style="text-align: justify;">Khi đăng ký tài khoản, Người mua cung cấp thông tin xác thực về
                             bản thân và cập nhật nếu có bất kỳ thay đổi nào. Mỗi người truy cập phải có trách nhiệm với
@@ -161,12 +161,12 @@
                             KimLongTravel biết khi tài khoản bị truy cập trái phép. Chúng tôi sẽ không chịu bất kỳ trách nhiệm
                             nào, dù trực tiếp hay gián tiếp, đối với những thiệt hại hoặc mất mát gây ra do Người mua
                             không tuân thủ quy định.</p>
-                        <p style="text-align: justify;">Nghiêm cấm sử dụng bất kỳ phần nào của website kimlongtravel.com này với
+                        <p style="text-align: justify;">Nghiêm cấm sử dụng bất kỳ phần nào của website kimlongtravel.info này với
                             mục đích thương mại hoặc nhân danh bất kỳ đối tác thứ ba nào nếu không được KimLongTravel cho phép
                             bằng văn bản. Nếu vi phạm bất cứ điều nào trong đây, KimLongTravel sẽ hủy tài khoản của khách mà
                             không cần báo trước.</p>
                         <p style="text-align: justify;">Trong suốt quá trình đăng ký, Người mua đồng ý nhận email quảng
-                            cáo từ website kimlongtravel.com. Nếu không muốn tiếp tục nhận mail, Người mua có thể từ chối bằng
+                            cáo từ website kimlongtravel.info. Nếu không muốn tiếp tục nhận mail, Người mua có thể từ chối bằng
                             cách nhấp vào đường link ở dưới cùng trong mọi email quảng cáo.</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 3. ĐẶT CHỖ</span></strong></h2>
@@ -203,7 +203,7 @@
                             quy định của pháp luật.</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 4. Ý KIẾN CỦA KHÁCH HÀNG</span></strong></h2>
-                        <p style="text-align: justify;">Tất cả nội dung website kimlongtravel.com và ý kiến, đánh giá của người
+                        <p style="text-align: justify;">Tất cả nội dung website kimlongtravel.info và ý kiến, đánh giá của người
                             truy cập đều là tài sản của KimLongTravel. Nếu chúng tôi phát hiện bất kỳ thông tin giả mạo nào,
                             chúng tôi sẽ khóa tài khoản của quý khách ngay lập tức hoặc áp dụng các biện pháp khác theo
                             quy định của pháp luật Việt Nam.</p>
@@ -219,7 +219,7 @@
                             tôi có thể hỏi thêm về số điện thoại và địa chỉ trước khi nhận đơn hàng.</p>
                         <p style="text-align: justify;">Chúng tôi cam kết sẽ cung cấp thông tin giá cả chính xác nhất
                             cho người tiêu dùng. Tuy nhiên, đôi lúc vẫn có sai sót xảy ra, ví dụ như trường hợp sản phẩm
-                            đã hết hàng hoặc giá sản phẩm không hiển thị chính xác trên trang web kimlongtravel.com. Tùy theo từng
+                            đã hết hàng hoặc giá sản phẩm không hiển thị chính xác trên trang web kimlongtravel.info. Tùy theo từng
                             trường hợp, KimLongTravel sẽ liên hệ hướng dẫn hoặc thông báo hủy đơn hàng đó cho quý khách. Chúng
                             tôi cũng có quyền từ chối hoặc hủy bỏ bất kỳ đơn hàng nào dù đơn hàng đó đã hay chưa được
                             xác nhận hoặc đã thanh toán. Trường hợp đơn hàng đã được thanh toán và xác nhận thành công,
@@ -231,7 +231,7 @@
                             đài của KimLongTravel để nhận được sự trợ giúp.</p>
                         <p style="text-align: justify;">Trong mọi trường hợp, khách hàng đều có quyền chấm dứt giao dịch
                             nếu đã thực hiện các biện pháp sau đây:</p>
-                        <p>- Thông báo cho KimLongTravel về việc hủy giao dịch qua đường dây nóng (hotline) 1900 636750 (từ Thứ
+                        <p>- Thông báo cho KimLongTravel về việc hủy giao dịch qua đường dây nóng (hotline) 1900 20 53 (từ Thứ
                             Hai đến Thứ Sáu 08:00 - 17:00). Thông báo có hiệu lực khi có phản hồi của Chúng Tôi về việc
                             nhận được thông báo.</p>
                         <p>- Đăng nhập vào tài khoản của mình và bấm nút Hủy Vé với các Đơn hàng đã đặt.</p>
@@ -239,8 +239,8 @@
                                     style="font-size: 12pt;">ĐIỀU 7. GIẢI QUYẾT HẬU QUẢ DO LỖI NHẬP SAI THÔNG TIN</span></strong>
                         </h2>
                         <p style="text-align: justify;">Khách hàng có trách nhiệm cung cấp thông tin đầy đủ và chính xác
-                            khi tham gia giao dịch tại kimlongtravel.com. Trong trường hợp khách hàng nhập sai thông tin và gửi
-                            vào trang kimlongtravel.com, KimLongTravel có quyền từ chối thực hiện giao dịch. Ngoài ra, trong mọi trường
+                            khi tham gia giao dịch tại kimlongtravel.info. Trong trường hợp khách hàng nhập sai thông tin và gửi
+                            vào trang kimlongtravel.info, KimLongTravel có quyền từ chối thực hiện giao dịch. Ngoài ra, trong mọi trường
                             hợp, khách hàng đều có quyền đơn phương chấm dứt giao dịch nếu đã thực hiện các biện pháp
                             như đã nêu.</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
@@ -248,9 +248,9 @@
                         <p style="text-align: justify;">Mọi quyền sở hữu trí tuệ (đã đăng ký hoặc chưa đăng ký), nội
                             dung thông tin và tất cả các thiết kế, văn bản, đồ họa, phần mềm, hình ảnh, video, âm nhạc,
                             âm thanh, biên dịch phần mềm, mã nguồn và phần mềm …. đều là tài sản của KimLongTravel. Toàn bộ nội
-                            dung của trang web kimlongtravel.com được bảo vệ bởi luật bản quyền của Việt Nam và các công ước quốc
+                            dung của trang web kimlongtravel.info được bảo vệ bởi luật bản quyền của Việt Nam và các công ước quốc
                             tế. Bản quyền đã được bảo lưu. Mọi sự sao chép mà chưa được sự cho phép của Công ty TNHH
-                            SPUREN đều là vi phạm pháp luật.</p>
+                            Dịch Vụ Thương Mại Kim Long đều là vi phạm pháp luật.</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 9. QUYỀN PHÁP LÝ</span></strong></h2>
                         <p style="text-align: justify;">Các điều kiện, điều khoản và nội dung của trang web này được
@@ -265,8 +265,7 @@
                             Ngoài ra, KimLongTravel còn cung cấp cho khách hàng danh sách các điểm bán vé tin cậy (nếu có) với
                             đầy đủ thông tin giá cả, chính sách hỗ trợ để khách hàng tham khảo, giúp khách hàng tránh
                             gặp phải những trường hợp không mong muốn như mua vé không đảm bảo chất lượng, giá thành
-                            cao, hoặc một số vấn đề thường gặp khác. Chi tiết hướng dẫn đặt vé và thanh toán, tham khảo
-                            tại <a href="https://kimlongtravel.com/blog/huong-dan-dat-hang-va-thanh-toan"><strong>đây</strong></a>.
+                            cao, hoặc một số vấn đề thường gặp khác.
                         </p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 11. ĐẢM BẢO AN TOÀN GIAO DỊCH</span></strong></h2>
@@ -291,7 +290,7 @@
                             thức phát tán, truyền bá hay cổ vũ cho bất kỳ hoạt động nào nhằm can thiệp, phá hoại hay xâm
                             hại hệ thống của KimLongTravel đều không được cho phép.</p>
                         <p style="text-align: justify;">KimLongTravel sử dụng các dịch vụ để bảo vệ thông tin về nội dung sản
-                            phẩm trên kimlongtravel.com để đảm bảo các giao dịch được tiến hành thành công, hạn chế tối đa rủi ro
+                            phẩm trên kimlongtravel.info để đảm bảo các giao dịch được tiến hành thành công, hạn chế tối đa rủi ro
                             có thể phát sinh. Mọi thông tin giao dịch được bảo mật, trừ trường hợp cung cấp cho cơ quan
                             có thẩm quyền khi được yêu cầu.</p>
                         <p style="text-align: justify;">Nếu bạn sử dụng trang web này, bạn có trách nhiệm duy trì tính
@@ -302,7 +301,7 @@
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 12. CHÍNH SÁCH BẢO MẬT</span></strong></h2>
                         <p style="text-align: justify;">Khách hàng không cần phải tạo tài khoản thành viên để giao dịch
-                            và/hoặc đặt dịch vụ trực tuyến tại trang kimlongtravel.com. Do đó, KimLongTravel chỉ thu thập thông tin cá nhân
+                            và/hoặc đặt dịch vụ trực tuyến tại trang kimlongtravel.info. Do đó, KimLongTravel chỉ thu thập thông tin cá nhân
                             của người dùng trong trường hợp khách đặt vé trực tuyến và hệ thống sẽ hiển thị link Chính
                             sách bảo mật thông tin và Điều khoản sử dụng của KimLongTravel tại thời điểm thu thập để người dùng
                             đọc và xác nhận.</p>
@@ -316,11 +315,11 @@
                                     style="font-size: 12pt;">ĐIỀU 13. QUY ĐỊNH VỀ CHÍNH SÁCH TRẢ/HỦY VÉ, HỦY CHUYẾN, LỠ CHUYẾN VÀ CÁC DỊCH VỤ TRÊN XE (CHỈ ÁP DỤNG CHO CÁC VÉ CÓ HIỆU LỰC)</span></strong>
                         </h2>
                         <p style="text-align: justify;">Tham khảo Chính sách hủy vé của chúng tôi tại <a
-                                href="https://kimlongtravel.com/blog/chinh-sach-huy-ve"><strong>đây</strong></a>.</p>
+                                href="#"><strong>đây</strong></a>.</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 14. CHÍNH SÁCH HOÀN TIỀN</span></strong></h2>
                         <p style="text-align: justify;">Tham khảo Chính sách hoàn tiền của chúng tôi tại <a
-                                href="https://kimlongtravel.com/blog/chinh-sach-hoan-tien"><strong>đây</strong></a>.</p>
+                                href="#"><strong>đây</strong></a>.</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 15. QUY ĐỊNH VỀ GHẾ NGỒI, GIƯỜNG NẰM VÀ CÁC TIỆN ÍCH KHÁC TRÊN XE</span></strong>
                         </h2>
@@ -333,13 +332,13 @@
                             ngồi) mong muốn, KimLongTravel sẽ cố gắng (nhưng không bắt buộc) cùng đối tác vận tải đáp ứng yêu cầu
                             của Người mua.</p>
                         <p style="text-align: justify;">Các tiện ích như Wifi, ổ cắm điện, nhà vệ sinh hoặc bất kỳ dịch
-                            vụ khác trên xe được đề cập trên website kimlongtravel.com là dịch vụ đại diện, phổ biến nhất của hãng
+                            vụ khác trên xe được đề cập trên website kimlongtravel.info là dịch vụ đại diện, phổ biến nhất của hãng
                             xe. Thông tin này giúp Người mua có cái nhìn tổng quát trước khi quyết định đặt vé. Tuy
                             nhiên, KimLongTravel không có trách nhiệm đảm bảo 100% các xe đều đáp ứng yêu cầu này, vì một hãng xe
                             có thể có rất nhiều xe được trang bị khác nhau theo từng thời kì. Nếu có thắc mắc, khiếu nại
                             do thiếu sót các tiện tích này cũng như các thiếu sót về chất lượng xe và chất lượng phục
                             vụ, Người mua có thể ý kiến trực tiếp với hãng xe hoặc gửi ý kiến đánh giá về uy tín hãng xe
-                            trên website kimlongtravel.com.</p>
+                            trên website kimlongtravel.info.</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 16. KHUYẾN MÃI VÀ GIẢM GIÁ</span></strong></h2>
                         <p style="text-align: justify;">Chỉ được áp dụng tối đa 01 chương trình giảm giá/khuyến mãi hoặc
@@ -352,7 +351,7 @@
                         <p style="text-align: justify;">Khi có khiếu nại, hành khách cần thông báo trong thời gian 7
                             ngày làm việc kể từ Thời Gian Khởi Hành, quá thời hạn trên, khiếu nại không có hiệu lực.</p>
                         <p style="text-align: justify;">Bất kỳ tranh cãi, khiếu nại hoặc tranh chấp phát sinh từ hoặc
-                            liên quan đến giao dịch tại kimlongtravel.com hoặc Điều Khoản Sử Dụng này đều sẽ được giải quyết bằng
+                            liên quan đến giao dịch tại kimlongtravel.info hoặc Điều Khoản Sử Dụng này đều sẽ được giải quyết bằng
                             hình thức thương lượng, hòa giải, trọng tài và/hoặc Tòa án theo pháp luật hiện hành. Mọi chi
                             phí phát sinh do tranh chấp do bên thua kiện chịu.</p>
                         <p style="text-align: justify;">Khiếu nại về hãng xe có thể gửi đến Ban quản lý KimLongTravel theo hướng
@@ -360,7 +359,7 @@
                             nhận những phản hồi này, KimLongTravel sẽ xác nhận lại thông tin, trường hợp đúng như phản ánh, tùy
                             theo mức độ sẽ có những biện pháp xử lý kịp thời.</p>
                         <p style="text-align: justify;">Khách hàng cần phải thường xuyên đọc và tuân theo các Chính sách
-                            và Quy định đang được đăng trên trang kimlongtravel.com để có thể hiểu và thực hiện được các Chính
+                            và Quy định đang được đăng trên trang kimlongtravel.info để có thể hiểu và thực hiện được các Chính
                             sách và Quy định tại thời điểm đó.</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 18. LUẬT PHÁP VÀ THẨM QUYỀN TẠI LÃNH THỔ VIỆT NAM</span></strong>
@@ -371,7 +370,7 @@
                             quý khách hàng có quyền gửi khiếu nại/ khiếu kiện lên Tòa án có thẩm quyền tại Việt Nam để
                             giải quyết.</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
-                                    style="font-size: 12pt;">ĐIỀU 19. QUYỀN VÀ TRÁCH NHIỆM CỦA KimLongTravel</span></strong></h2>
+                                    style="font-size: 12pt;">ĐIỀU 19. QUYỀN VÀ TRÁCH NHIỆM CỦA KIMLONGTRAVEL</span></strong></h2>
                         <h3 style="text-align: justify;"><span style="font-size: 12pt;"><em>Quyền của KimLongTravel</em></span>
                         </h3>
                         <p style="text-align: justify;">Có quyền kiểm tra, cập nhật, chỉnh sửa các thông tin liên quan
@@ -394,7 +393,7 @@
                             hàng thực hiện đúng quy trình đặt vé, mua vé, hủy vé</p>
                         <p style="text-align: justify;">- Xây dựng và công bố công khai trên website điều khoản sử dụng
                             của KimLongTravel, theo dõi và bảo đảm việc thực hiện các điều khoản đó trên Trang bán vé trực tuyến
-                            kimlongtravel.com;</p>
+                            kimlongtravel.info;</p>
                         <p style="text-align: justify;">- Hỗ trợ đăng tải và cập nhật các thông tin do hãng xe cung cấp
                             để bán vé hoặc cung ứng dịch vụ khách hàng thông qua trang KimLongTravel;&nbsp;</p>
                         <p style="text-align: justify;">- Thiết lập cơ chế cung cấp thông tin và đặt vé trên KimLongTravel cho
@@ -405,7 +404,7 @@
                         <p style="text-align: justify;">- Tích cực hỗ trợ cơ quan quản lý nhà nước điều tra các hành vi
                             kinh doanh vi phạm pháp luật;&nbsp;</p>
                         <p style="text-align: justify;">- Có biện pháp xử lý kịp thời khi phát hiện hoặc nhận được phản
-                            ánh về hành vi kinh doanh vi phạm pháp luật trên trang kimlongtravel.com ; khi khách hàng mua vé và có
+                            ánh về hành vi kinh doanh vi phạm pháp luật trên trang kimlongtravel.info ; khi khách hàng mua vé và có
                             phát sinh mâu thuẫn với hãng xe hoặc bị tổn hại lợi ích hợp pháp thì KimLongTravel sẽ cung cấp cho
                             khách hàng thông tin về hãng xe, tích cực hỗ trợ khách hàng bảo vệ quyền và lợi ích hợp pháp
                             của họ;</p>
@@ -417,7 +416,7 @@
                             xảy ra ảnh hưởng tới hoạt động của KimLongTravel. Trường hợp xảy ra các sự kiện bất khả kháng, bao
                             gồm nhưng không giới hạn bởi thiên tai, hỏa hoạn, biến động xã hội, các quyết định của cơ
                             quan chức năng thì KimLongTravel không phải chịu trách nhiệm liên đới.</p>
-                        <p style="text-align: justify;">- Công bố công khai trên trang kimlongtravel.com cơ chế giải quyết khiếu
+                        <p style="text-align: justify;">- Công bố công khai trên trang kimlongtravel.info cơ chế giải quyết khiếu
                             nại, tranh chấp giữa các bên liên quan đến giao dịch được thực hiện qua KimLongTravel.</p>
                         <p style="text-align: justify;">- Công bố công khai trên KimLongTravel chính sách bảo vệ thông tin cá
                             nhân của người sử dụng.</p>
@@ -441,20 +440,14 @@
                             hành và hành khách sẽ lên một xe chính tại một nơi khác</p>
                         <p style="text-align: justify;"><span style="font-size: 12pt;"><strong>Thông tin về thương nhân, tổ chức</strong></span>
                         </p>
-                        <p style="text-align: justify;">Tên thương nhân, tổ chức: <strong>Công ty TNHH Dịch Vụ Thương Mại Kim LongPUREN</strong>
+                        <p style="text-align: justify;">Tên thương nhân, tổ chức: <strong>Công ty TNHH Dịch Vụ Thương Mại Kim Long</strong>
                         </p>
                         <p style="text-align: justify;">Tên giao dịch (nếu có): <strong>KimLongTravel</strong></p>
-                        <p style="text-align: justify;">Tên và chức danh người đại diện thương nhân/tổ chức: <strong>Nguyễn
-                                Thế Hoàng</strong></p>
-                        <p style="text-align: justify;">Địa chỉ: <strong>Tầng 10, 33 Ung Văn Khiêm, P. 25, Q. Bình
-                                Thạnh, Tp. Hồ Chí Minh</strong></p>
-                        <p style="text-align: justify;">Điện thoại: <strong>1900 636750 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>
+                        <p style="text-align: justify;">Tên và chức danh người đại diện thương nhân/tổ chức: <strong>Ngô Kim Long</strong></p>
+                        <p style="text-align: justify;">Địa chỉ: <strong>Xóm 9 - Hải Vân - Hải Hậu - Nam Định</strong></p>
+                        <p style="text-align: justify;">Điện thoại: <strong>1900 20 53 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>
                         </p>
-                        <p style="text-align: justify;">Email: <strong>cs@spuren.vn</strong></p>
-                        <p style="text-align: justify;">Số giấy chứng nhận đăng ký kinh doanh:
-                            <strong>0316727056</strong></p>
-                        <p style="text-align: justify;">Ngày cấp: <strong>02/03/2021</strong></p>
-                        <p style="text-align: justify;">Nơi cấp: <strong>Sở Kế Hoạch và Đầu Tư TP. HCM</strong></p>
+                        <p style="text-align: justify;">Email: <strong>kimlongtravel102@gmail.com</strong></p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 20. QUYỀN VÀ TRÁCH NHIỆM CỦA NHÀ CUNG CẤP DỊCH VỤ (HÃNG XE/SÀN VÉ)</span></strong>
                         </h2>
@@ -520,11 +513,11 @@
                             chỗ mà không thu thêm phí;</p>
                         <p style="text-align: justify;">- Hoàn lại tiền vé cho hành khách đối với chuyến xe hành khách
                             bị từ chối vận chuyển.</p>
-                        <p style="text-align: justify;">- Có quyền đóng góp ý kiến cho trang kimlongtravel.com trong quá trình
+                        <p style="text-align: justify;">- Có quyền đóng góp ý kiến cho trang kimlongtravel.info trong quá trình
                             hoạt động. Các kiến nghị được gửi trực tiếp bằng thư tay, fax, email hoặc gọi điện cho
                             KimLongTravel.</p>
                         <p style="text-align: justify;"><strong><em>Thông tin hỗ trợ hành khách:&nbsp;</em></strong></p>
-                        <p style="text-align: justify;">Ban quản lý Trang bán vé trực tuyến kimlongtravel.com: <strong>Công ty
+                        <p style="text-align: justify;">Ban quản lý Trang bán vé trực tuyến kimlongtravel.info: <strong>Công ty
                                 TNHH Dịch Vụ Thương Mại Kim Long</strong></p>
                         <p style="text-align: justify;">Địa chỉ: <strong>Xóm 9 - Hải Vân - Hải Hậu - Nam Định</strong></p>
                         <p style="text-align: justify;">Điện thoại hotline: <strong>1900 20 53</strong></p>
@@ -583,7 +576,7 @@
                         <p style="text-align: justify;">KimLongTravel cam kết cung cấp chất lượng dịch vụ tốt nhất cho khách hàng
                             tham gia giao dịch. Trường hợp phát sinh lỗi kỹ thuật, lỗi phần mềm hoặc các lỗi khách quan
                             khác dẫn đến khách hàng không thể tham gia giao dịch được thì các khách hàng thông báo cho
-                            Ban quản lý KimLongTravel qua địa chỉ email: cs@spuren.vn hoặc tổng đài hỗ trợ: 1900 636750. KimLongTravel sẽ
+                            Ban quản lý KimLongTravel qua địa chỉ email: kimlongtravel102@gmail.com hoặc tổng đài hỗ trợ: 1900 20 53. KimLongTravel sẽ
                             khắc phục lỗi trong thời gian sớm nhất, tạo điều kiện cho các khách hàng thực hiện giao dịch
                             trên hệ thống KimLongTravel.</p>
                         <p style="text-align: justify;">Ban quản lý KimLongTravel sẽ không chịu trách nhiệm giải quyết trong
@@ -654,7 +647,7 @@
                             và Quy định đang được đăng trên KimLongTravel để có thể hiểu và thực hiện được các Chính sách và Quy
                             định tại thời điểm đó.</p>
                         <p style="text-align: justify;">KimLongTravel sẽ thực hiện mọi nỗ lực hợp lý để giải quyết các khiếu nại
-                            của khách hàng sử dụng dịch vụ trên trang kimlongtravel.com. Nếu những nỗ lực đó thất bại, khách hàng
+                            của khách hàng sử dụng dịch vụ trên trang kimlongtravel.info. Nếu những nỗ lực đó thất bại, khách hàng
                             phải đồng ý rằng bất kỳ khiếu nại, tranh chấp của khách hàng đối với KimLongTravel hoặc thương nhân
                             đều được giải quyết theo đúng quy định của pháp luật Việt Nam và tổng trách nhiệm của KimLongTravel
                             đối với mỗi khách hàng không vượt quá số tiền mà KimLongTravel thu được từ khách hàng đó đối với vụ
@@ -674,17 +667,16 @@
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 26. ĐIỀU KHOẢN ÁP DỤNG</span></strong></h2>
                         <p style="text-align: justify;">Điều khoản sử dụng của KimLongTravel có hiệu lực thi hành kể từ ngày đăng
-                            tải trên website https://kimlongtravel.com</p>
+                            tải trên website https://www.kimlongtravel.info</p>
                         <p style="text-align: justify;">Nội dung văn bản này có thể được sửa đổi, bổ sung và thay thế
                             theo thời gian nhằm đảm bảo mục đích và hoạt động của KimLongTravel. Các nội dung sửa đổi, thay thế
                             sẽ có hiệu lực trong vòng 03 (ba) ngày từ ngày thông báo. Việc khách hàng tiếp tục sử dụng
                             dịch vụ sau khi các nội dung sửa đổi, bổ sung và thay thế được công bố và thực thi đồng
                             nghĩa với việc các khách hàng đã chấp nhận. Địa chỉ liên lạc chính thức của KimLongTravel:</p>
-                        <p style="text-align: justify;"><strong><em>Công ty TNHH Dịch Vụ Thương Mại Kim LongPUREN</em></strong></p>
-                        <p style="text-align: justify;"><strong><em>Địa chỉ: Tầng 10, 33 Ung Văn Khiêm, P. 25, Q. Bình
-                                    Thạnh, Tp. Hồ Chí Minh</em></strong></p>
-                        <p style="text-align: justify;"><strong><em>Điện thoại: 1900 636750</em></strong></p>
-                        <p style="text-align: justify;"><strong><em>Email: cs@spuren.vn</em></strong></p>
+                        <p style="text-align: justify;"><strong><em>Công ty TNHH Dịch Vụ Thương Mại Kim Long</em></strong></p>
+                        <p style="text-align: justify;"><strong><em>Địa chỉ: Xóm 9 - Hải Vân - Hải Hậu - Nam Định</em></strong></p>
+                        <p style="text-align: justify;"><strong><em>Điện thoại: 1900 20 53</em></strong></p>
+                        <p style="text-align: justify;"><strong><em>Email: kimlongtravel102@gmail.com</em></strong></p>
                         <h2 style="text-align: justify; color: #ff7d00; margin-bottom: 15px;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 27. CAM KẾT CỦA KimLongTravel DÀNH CHO KHÁCH HÀNG</span></strong>
                         </h2>

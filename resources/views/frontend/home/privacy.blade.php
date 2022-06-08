@@ -184,8 +184,8 @@
                             hoặc phạm vi, khách hàng gửi khiếu nại đến Ban Quản trị KIMLONGTRAVEL.COM thông qua email <strong>cs@KIMLONG.vn</strong>
                             hoặc gọi điện thoại tới số <strong>1900636750</strong> (Phím số 2) để khiếu nại và cung cấp
                             chứng cứ liên quan tới vụ việc.&nbsp;</p>
-                        <p style="text-align: justify;">Sau khi tiếp nhận thông tin khiếu nại, SWIO sẽ xác nhận lại
-                            thông tin, có trách nhiệm giải quyết khiếu nại cho khách hàng. SWIO cam kết sẽ phản hồi ngay
+                        <p style="text-align: justify;">Sau khi tiếp nhận thông tin khiếu nại, KIMLONGTRAVEL sẽ xác nhận lại
+                            thông tin, có trách nhiệm giải quyết khiếu nại cho khách hàng. KIMLONGTRAVEL cam kết sẽ phản hồi ngay
                             lập tức hoặc muộn nhất là trong vòng 24 giờ làm việc kể từ thời điểm nhận được khiếu nại..&nbsp;</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin: 15px 0 15px 0;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 9. THÔNG TIN LIÊN HỆ CỦA ĐƠN VỊ THU THẬP VÀ QUẢN LÝ THÔNG TIN CÁ NHÂN&nbsp;</span></strong>

@@ -5269,6 +5269,7 @@
       <change beforePath="$PROJECT_DIR$/public/resource/swio.vn/restserver.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/resource/swio.vn/restserver.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/resource/swio.vn/runtime.acf0dec4155e77772545.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/resource/swio.vn/runtime.acf0dec4155e77772545.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/resource/swio.vn/styles.280e991c5992f8630bc9.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/resource/swio.vn/styles.280e991c5992f8630bc9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/checkouts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/checkouts/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/checkouts/edit_checkout_status.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/checkouts/edit_checkout_status.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/checkouts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/checkouts/index.blade.php" afterDir="false" />
@@ -5641,7 +5642,7 @@
       <workItem from="1654483278058" duration="16509000" />
       <workItem from="1654567265266" duration="25825000" />
       <workItem from="1654678807867" duration="1646000" />
-      <workItem from="1654700777111" duration="6624000" />
+      <workItem from="1654700777111" duration="7534000" />
     </task>
     <servers />
   </component>
