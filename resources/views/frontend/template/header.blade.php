@@ -20,19 +20,17 @@
     <meta name="title" content="KimLongTravel -Trang bán vé xe khách trực tuyến hàng đầu tại Việt Nam"/>
     <meta name="description"
           content="Dễ dàng đặt vé xe khách, xe limousine nhanh chóng, tiết kiệm. Vô vàn ưu đãi, mã giảm giá và có cam kết hoàn tiền đến 150%"/>
-
+    
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WWQ43HJBMQ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-197584107-1');
+        gtag('config', 'G-WWQ43HJBMQ');
     </script>
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
 
 

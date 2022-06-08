@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f429cb5-d4ed-4e01-a525-abc70714a83b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CarsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CarsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CheckoutController.php" afterDir="false" />
@@ -42,7 +43,6 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" afterDir="false" />
@@ -65,6 +65,8 @@
       <change beforePath="$PROJECT_DIR$/database/kimlong_travel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/kimlong_travel.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/tai_khoan.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/tai_khoan.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/ve_chuyen.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/ve_chuyen.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/apache.conf" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/apache.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/animate.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.css" afterDir="false" />
@@ -5639,7 +5641,7 @@
       <workItem from="1654483278058" duration="16509000" />
       <workItem from="1654567265266" duration="25825000" />
       <workItem from="1654678807867" duration="1646000" />
-      <workItem from="1654700777111" duration="5816000" />
+      <workItem from="1654700777111" duration="6624000" />
     </task>
     <servers />
   </component>
