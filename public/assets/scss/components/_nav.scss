@@ -1,0 +1,666 @@
+.menu,
+.menu .menu-main,
+.nav-info {
+    @include d-flex-between;
+}
+
+.search-list-btn {
+    display: none;
+}
+
+// Binds to JS Toggle
+
+.menu {
+    padding: 30px 60px;
+    transition: all 0.3s ease;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+    transition: all 0.3s ease;
+
+    @media screen and (min-width: 1441px) {
+        padding: 30px 200px;
+        transition: all 0.3s ease;
+    }
+
+    .toggle {
+        display: none;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+
+        span {
+            position: relative;
+            display: block;
+            &,
+            &::before,
+            &::after {
+                width: 100%;
+                height: 3px;
+                background-color: $white;
+                transition: all 0.3s;
+                backface-visibility: hidden;
+                border-radius: 2px;
+                top: 12px;
+            }
+            &::before, &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: -9px;
+            }
+            &::after {
+                top: 9px;
+            }
+        }
+    }
+
+    @media screen and (max-width: $screen-desktop) {
+        display: flex;
+        padding: 10px 15px;
+        .toggle {
+            display: block;
+            &.close-toggle {
+                span {
+                    background-color: transparent;
+                    position: relative;
+                    top: 24px;
+                    &:before {
+                        transform: rotate(45deg) translate(5px, 5px);
+                    }
+                    &:after {
+                        transform: rotate(-45deg) translate(7px, -8px);
+                    }
+                }
+            }
+        }
+
+
+        #logo {
+            text-align: center;
+            margin: 0;
+        }
+
+        ul.menu-main {
+            display: none;
+        }
+
+        &.active {
+            background-color: $black;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            height: 100%;
+            ul.menu-main {
+                display: block;
+                position: absolute;
+                top: 15%;
+                left: 15%;
+                text-align: flex-start;
+                width: 100%;
+
+                li {
+                    margin: 0;
+                    a {
+                        font-size: 24px;
+                        line-height: 18px;
+                        padding: 10px 0;
+                        display: block;
+                        font-weight: 500;
+
+                        @media screen and (max-width: $screen-desktop) {
+                            white-space: nowrap;
+                            padding: 15px 0;
+                        }
+
+                        @media screen and (max-width: $screen-phone) {
+                            font-size: 1.5rem;
+                            padding: 1rem 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .nav-info {
+            &-support,
+            &-account {
+                @media screen and (max-width: $screen-phone) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &-link {
+        transition: all 0.3s ease;
+        &:hover,
+        &:active,
+        &.active {
+            color: $orange !important;
+        }
+    }
+
+    &.sticky {
+        background-color: $black;
+        padding: 15px 60px;
+
+        @media screen and (max-width: $screen-desktop) {
+            padding: 15px;
+        }
+
+        #logo {
+            img {
+                height: 50px;
+            }
+        }
+    }
+
+    ul.menu-main {
+        li {
+            margin-right: 40px;
+            font-weight: 700;
+            &:last-child {
+                margin: 0;
+            }
+
+            &.sub-menu {
+                position: relative;
+                &:hover {
+                    svg {
+                        color: $orange;
+                    }
+                }
+
+                svg {
+                    transform: rotate(-90deg);
+                    color: $white;
+                    width: 16px;
+                    height: 16px;
+                    padding: 2px;
+                    border-radius: 1px;
+                }
+            }
+
+            .nav-dropdown {
+                position: absolute;
+                display: none;
+                z-index: 1;
+                box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+                background-color: #ffffff;
+                margin-top: 10px;
+                border-radius: 6px;
+
+                @media screen and (max-width: $screen-desktop) {
+                    position: relative;
+                    background-color: transparent;
+                    color: $white;
+                    margin: 0 10px;
+                }
+
+                li {
+                    padding: 10px 20px;
+                    margin: 0;
+                    transition: 0.5s ease all;
+
+                    @media screen and (max-width: $screen-desktop) {
+                        padding: 0;
+                    }
+
+                    &:not(:last-child) {
+                        border-bottom: 1px solid #00000015;
+                    }
+
+                    &:first-child {
+                        padding-top: 15px;
+
+                        @media screen and (max-width: $screen-phone) {
+                            padding-top: 0;
+                        }
+                    }
+
+                    &:last-child {
+                        padding-bottom: 15px;
+
+                        @media screen and (max-width: $screen-phone) {
+                            padding-bottom: 0;
+                        }
+                    }
+
+                    &:hover,
+                    &:active {
+                        background-color: #00000010;
+                        transition: 0.5s ease all;
+                    }
+                    a {
+                        color: inherit;
+                        display: block;
+                        font-weight: 300;
+                        white-space: nowrap;
+
+                        @media screen and (max-width: $screen-desktop) {
+                            opacity: 0.6;
+                            white-space: break-spaces;
+                            line-height: 1.5rem;
+
+                            @media screen and (max-width: $screen-phone) {
+                                line-height: 1rem;
+                                font-size: 1rem;
+                                padding: 10px 0;
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            a {
+                color: $white;
+            }
+        }
+    }
+}
+
+.custom-header {
+
+    .show-notification {
+        display: none;
+    }
+
+    @media screen and (max-width: $screen-phone) {
+        margin-top: 60px;
+        z-index: 6;
+    }
+
+    .menu {
+        background-color: $black;
+        padding: 10px 60px;
+
+        @media screen and (min-width: 1441px) {
+            padding: 20px 200px;
+        }
+
+        .acccount-form {
+            @media screen and (min-width: $screen-phone) {
+                .account-mobile.open {
+                    top: 75px;
+                }
+            }
+        }
+
+        @media screen and (max-width: $screen-desktop) {
+            padding: 5px 15px;
+            min-height: 70px;
+        }
+    }
+
+    .search-range {
+        display: block;
+
+        .search-drop-list {
+            li:not(:last-child) {
+                margin-bottom: 10px;
+            }
+        }
+
+        @media screen and (max-width: $screen-phone) {
+            display: none;
+        }
+    }
+
+    .search-feature {
+        margin-top: 70px;
+        position: relative;
+        bottom: 0;
+        padding: 40px 0;
+        background-color: $grey-200;
+        opacity: 1;
+        height: auto;
+        transition: 0.5s ease ;
+        &.close {
+            overflow: hidden;
+            opacity: 0;
+            padding: 0;
+            height: 0;
+            transition: 0.5s ease;
+        }
+        @media screen and (max-width: $screen-phone) {
+            padding: 0;
+
+            &.active {
+                display: block;
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                bottom: 0;
+                top: 0;
+                background: $white;
+                z-index: 1000;
+                margin-bottom: 74px;
+                z-index: 10002;
+
+                .search-seat-type,.search-range {
+                    display: block;
+                }
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: $font-weight-500
+                }
+
+                .btn {
+                    padding: 9px 10px;
+                    &.btn-reset {
+                        background-color: #F7F6F4;
+                    }
+                    &.btn-review {
+                        background: $orange;
+                        color: $white;
+                        i {
+                            font-size: 16px;
+                        }
+                    }
+                }
+                .search-list-btn {
+                    background-color: #F7F6F4;
+                    @include shadow;
+                    position: fixed;
+                    bottom: 0;
+                    padding: 20px 15px;
+                    width: 100%;
+                    left: 0;
+                    z-index: 100;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .btn {
+                        width: 100%;
+
+                        &:first-child {
+                            margin-right: 8px;
+                        }
+
+                        &:last-child {
+                            margin-left: 8px;
+                        }
+                    }
+                }
+
+                form {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .search-title {
+        display: none;
+    }
+
+    .search-form {
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+
+        @media screen and (max-width: $screen-phone) {
+            form {
+                display: none;
+
+                &.hidden {
+                    display: none !important;
+                }
+
+                &.active {
+                    display: block;
+                    padding: 15px 0;
+                    position: fixed;
+                    width: 100%;
+                    height: calc(100% - 138px);
+                    overflow-y: auto;
+                    background-color: $white;
+                    z-index: 999;
+                    top: 139px;
+                    @include shadow;
+
+                    .search-drop-list {
+                        max-height: 10rem;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+#logo {
+    h1 {
+        margin: 0;
+    }
+    img {
+        width: 115px;
+        transition: all 0.3s ease;
+    }
+}
+
+.nav-info {
+    &-support {
+        background-color: $orange;
+        color: $white;
+        padding: 3px 10px;
+        border-radius: 50px;
+        font-weight: 500;
+
+        i {
+            margin-right: 5px;
+        }
+        a:hover{
+            color: #fff !important;
+        }
+    }
+
+    &-language {
+        color: $white;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: $font-weight-300;
+
+        &.order {
+            position: relative;
+
+            span {
+                font-size: 12px;
+                padding: 7px;
+                font-weight: $font-weight-500;
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                color: $white;
+                background-color: $orange;
+                top: 8px;
+                right: -2px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    .acccount-form {
+        @media screen and (min-width: $screen-phone) {
+            .account-mobile.open {
+                display: block;
+                max-width: 12rem;
+                height: max-content;
+                left: initial;
+                box-sizing: initial;
+                margin-right: 170px;
+                top: 90px;
+                @include shadow;
+                border-radius: 10px;
+                position: fixed;
+                z-index: 10001;
+                overflow: inherit;
+                padding: 15px;
+                opacity: 1;
+
+                .account-header {
+                    display: none;
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    border-bottom: 10px solid $white;
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    top: -10px;
+                    right: 35px;
+                }
+
+                .account-header {
+                    padding: 0;
+                }
+            }
+        }
+        @media screen and (max-width: 1441px) {
+            .account-mobile.open {
+                margin-right: 30px;
+
+                @media screen and (max-width: $screen-phone) {
+                    margin-right: 0;
+
+                    .account-header {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    &-account {
+        &.active,
+        &:hover,
+        &:active {
+            color: $orange !important;
+        }
+
+        &.login {
+            width: auto;
+
+            span {
+                font-size: 16px;
+                padding-left: 10px;
+                white-space: nowrap;
+                font-weight: $font-weight-400;
+            }
+        }
+    }
+
+    &-account,
+    &-language {
+        margin-left: 20px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        cursor: pointer;
+        transition: 0.2s ease all;
+        font-size: 22px;
+        &:active {
+            transition: 0.2s ease all;
+            transform: scale(1.1);
+        }
+    }
+
+    &-support {
+        margin-left: 20px;
+    }
+}
+
+.sort-mobile {
+    li {
+        width: 50%;
+        text-align: center;
+
+        i {
+            font-size: 18px !important;
+        }
+    }
+}
+
+.nav-mobile {
+    button {
+        span,a{
+            -webkit-text-fill-color:#242528;
+            -webkit-opacity: 1;
+            color: #242528;
+        }
+        &.btn-account.active {
+            svg {
+                g {
+                    stroke: $orange;
+                    fill: none;
+                }
+            }
+        }
+        &.active {
+            opacity: 1;
+            color: $orange;
+            span,a{
+                -webkit-text-fill-color: $orange;
+                -webkit-opacity: 1;
+                color:  $orange;
+            }
+            svg {
+                g {
+                    stroke: $orange;
+                    fill: $orange;
+                }
+            }
+        }
+    }
+}
+
+.nav-mobile, .sort-mobile {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    z-index: 111;
+    background: #F7F6F4;
+    @include shadow;
+    width: 100%;
+    padding: 10px 15px 5px;
+
+    @media screen and (max-width: $screen-phone) {
+        display: block;
+    }
+
+    ul {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+        button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            opacity: 0.5;
+            font-size: 14px;
+            width: 100%;
+            background-color: transparent;
+
+            i {
+                font-size: 24px;
+            }
+        }
+    }
+}

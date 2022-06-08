@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <g id="high-frame" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-434.000000, -473.000000)">
+            <g id="Group-2" transform="translate(434.000000, 473.000000)">
+                <g id="Group-91" fill-rule="nonzero">
+                    <path d="M40,20.5 C40,31.544922 31.044922,40.5 20,40.5 C8.955078,40.5 0,31.544922 0,20.5 C0,9.455078 8.955078,0.5 20,0.5 C31.044922,0.5 40,9.455078 40,20.5 Z" id="Path" fill="#FFCA55"></path>
+                    <path d="M37,20.5 C37,29.8881834 29.3881834,37.5 20,37.5 C10.6118166,37.5 3,29.8881834 3,20.5 C3,11.1118166 10.6118166,3.5 20,3.5 C29.3881834,3.5 37,11.1118166 37,20.5 Z" id="Path" fill="#FFAD55"></path>
+                </g>
+                <text id="$" font-family="Roboto-Bold, Roboto" font-size="19" font-weight="bold" letter-spacing="-0.610980387" fill="#FFFFFF">
+                    <tspan x="15" y="27">$</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
