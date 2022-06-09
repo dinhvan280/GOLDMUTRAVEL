@@ -68,7 +68,7 @@
                                              style="opacity: 1; width: 2408px; transform: translate3d(-688px, 0px, 0px);">
                                             <div class="slick-slide slick-cloned" data-slick-index="-1"
                                                  aria-hidden="true" tabindex="-1" style="width: 344px;"><a
-                                                    href="https://blog.KIMLONGTRAVEL.vn/cac-dia-diem-nen-den-o-mu-cang-chai-phan-1/"
+                                                    href="#"
                                                     target="_blank" class="image" tabindex="-1"><img
                                                         src="https://blog.KIMLONGTRAVEL.vn/wp-content/uploads/2021/09/deo-khau-pha-mu-cang-chai-min-525x375.jpg"
                                                         class="img-fluid">
@@ -153,12 +153,11 @@
                         <div class="mobile-result-content-item"><a routerlink="/" class="back" href="/"><i
                                     class="fa fa-angle-left"></i></a>
                             <div><p>Tìm thấy</p>
-                                <p class="show-result">31 kết quả</p></div>
+                                <p class="show-result">{{count($trips)}} chuyến xe</p></div>
                         </div>
                         <div class="mobile-result-content-item mobile-search">
                             @if(!empty($tuyen))
-                                <div><p>{{$tuyen->ten_chuyen}} @if(empty($time)) [{{ now()->format('d-m-Y') }}] @else
-                                            [{{$time}}] @endif</p>
+                                <div><p>{{$tuyen->ten_chuyen}}</p> @if(empty($time)) [{{ now()->format('d-m-Y') }}]@endif</p>
                                 </div>
                                 <button class="btn-mobile-search"><i aria-hidden="true" class="fa fa-angle-down"></i>
                                 </button>
@@ -175,7 +174,7 @@
                     @foreach($trips as $items => $item)
                         <div class="row ticket-item">
                             <div class="ticket-item-img">
-                                <img src="{{asset('images/cars/2.jpg')}}"
+                                <img src="{{asset($image->anh)}}"
                                      alt="Thế Anh">
                             </div>
                             <div class="ticket-item-info">

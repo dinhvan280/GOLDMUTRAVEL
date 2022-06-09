@@ -6,6 +6,7 @@ use App\Models\LoaiXe;
 use App\Models\TaiKhoan;
 use App\Models\Xe;
 use App\Models\Tuyen;
+use App\Models\XeAnh;
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
@@ -138,7 +139,7 @@ class CarsController extends Controller
 
             $xe = Xe::find($id);
 
-            if ($image && $xe->anh != "") {
+            if ($image) {
                 $extension = $image->extension();
                 $file_name = "Kim_Long_Travel_Cars_" . time() . '.' . $extension;
                 $file_path = $path . '/' . $file_name;
@@ -179,6 +180,7 @@ class CarsController extends Controller
         $xe->delete();
         return redirect()->back();
     }
+
 
 }
 

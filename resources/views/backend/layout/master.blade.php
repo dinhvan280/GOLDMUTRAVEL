@@ -374,7 +374,17 @@
                                     <a href="{{route('cars.index')}}"><i class="fa fa-bus"></i> Quản lý xe</a>
                                 </li>
                                 <li>
-                                    <a href="{{route('types.index')}}"><i class="fa fa-user"></i> Quản lý loại xe</a>
+                                    <a><i class="fa fa-shopping-cart"></i> Quản lý hình ảnh <span
+                                            class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        @foreach($listXe as $c)
+                                            <li>
+                                                <a href="{{route('list_image.car', ['id' => $c->id])}}">
+                                                    Xe {{$c->ten_xe}}
+                                                </a>
+                                            </li>
+                                        @endforeach
+                                    </ul>
                                 </li>
                                 <li>
                                     <a><i class="fa fa-shopping-cart"></i> Quản lý đơn hàng <span

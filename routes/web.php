@@ -103,6 +103,9 @@ Route::group(array('prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 
     Route::put('tickets/export', 'TicketsController@export')->name('tickets.report');
     Route::get('tickets/search', 'TicketsController@searchTicket')->name('ticket.search');
     Route::resource('cars', 'CarsController');
+    Route::resource('images', 'ImageController');
+    Route::get('create/{id}', 'ImageController@create')->name('image.create');
+    Route::get('list-image/{id}', 'ImageController@listImage')->name('list_image.car');
     Route::resource('checkouts', 'CheckoutController');
     Route::get('checkout/edit/{id}', 'CheckoutController@editCheckout')->name('edit.checkout');
     Route::put('checkout/update/{checkout}', 'CheckoutController@updateCheckout')->name('update.checkout');

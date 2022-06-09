@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\ChuyenNgay;
 use App\Models\GheXe;
+use App\Models\HinhAnh;
 use App\Models\VeChuyen;
 use App\Models\XeAnh;
 use Carbon\Carbon;
@@ -60,10 +61,9 @@ class TicketController extends Controller
     public function show(Request $request)
     {
         $id = $request->id;
-        $images = XeAnh::join('xe', 'xe.id', '=', 'xe_anh.ma_xe')
-            ->join('hinh_anh', 'hinh_anh.id', '=', 'xe_anh.ma_anh')
-            ->get();
-        return view('frontend.ticket.ticket_detail', compact('images'));
+        $image = HinhAnh::where('xe_id', $id)->first();
+        $images = HinhAnh::where('xe_id', $id)->get();
+        return view('frontend.ticket.ticket_detail', compact('images', 'image'));
     }
 
     public function showTicket(Request $request)
@@ -197,11 +197,8 @@ class TicketController extends Controller
             ->where('chuyen_ngay.ma_xe', $ma_xe)
             ->first();
 
-        $images = DB::table('xe_anh')
-            ->join('xe', 'xe.id', '=', 'xe_anh.ma_xe')
-            ->join('hinh_anh', 'hinh_anh.id', '=', 'xe_anh.ma_anh')
-            ->where('xe.id', $tuyen->ma_xe)
-            ->get();
+        $image = HinhAnh::where('xe_id', $ma_xe)->first();
+        $images = HinhAnh::where('xe_id', $ma_xe)->get();
 
         $chuyenNgay = ChuyenNgay::where('ma_chuyen', $tuyen->ma_chuyen)->first();
 
@@ -216,7 +213,7 @@ class TicketController extends Controller
 
         $time = $request->day;
 
-        return view('frontend.ticket.index', compact('trips', 'tuyen', 'time', 'images', 'numbers'));
+        return view('frontend.ticket.index', compact('trips', 'tuyen', 'time', 'images', 'image', 'numbers'));
     }
 
     public function chooseLocation(Request $request)

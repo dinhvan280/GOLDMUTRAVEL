@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -15,5 +15,10 @@ class HinhAnh extends Model
     public function loai_xe()
     {
         return $this->hasMany(VeChuyen::class, 'ma_dh');
+    }
+
+    public function xe()
+    {
+        return $this->belongsTo(Xe::class);
     }
 }

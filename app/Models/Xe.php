@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\HinhAnh;
 use Illuminate\Database\Eloquent\Model;
 
 class Xe extends Model
@@ -26,4 +27,8 @@ class Xe extends Model
         return $this->hasOne(ChuyenNgay::class, 'ma_xe');
     }
 
+    public function hinh_anh()
+    {
+        return $this->hasMany(HinhAnh::class, 'xe_id');
+    }
 }
