@@ -85,7 +85,7 @@ class TicketController extends Controller
 
     public function buyTicket(Request $request)
     {
-        Cache::flush();
+//        Cache::flush();
         $id = $request->id;
         $type = $request->type;
         $kh = $request->ky_hieu;
