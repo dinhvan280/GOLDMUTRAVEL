@@ -23,6 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f429cb5-d4ed-4e01-a525-abc70714a83b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/KimLongTravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KimLongTravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CarsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CarsController.php" afterDir="false" />
@@ -56,7 +64,6 @@
       <change beforePath="$PROJECT_DIR$/app/Models/ChuyenNgay.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ChuyenNgay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/HinhAnh.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/HinhAnh.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/XeAnh.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/XeAnh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Util/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Util/Helper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
@@ -5330,7 +5337,6 @@
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/ticket/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/ticket/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_choose.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_choose.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -5645,7 +5651,7 @@
       <workItem from="1654567265266" duration="25825000" />
       <workItem from="1654678807867" duration="1646000" />
       <workItem from="1654700777111" duration="7851000" />
-      <workItem from="1654740434291" duration="472000" />
+      <workItem from="1654740434291" duration="854000" />
     </task>
     <servers />
   </component>
