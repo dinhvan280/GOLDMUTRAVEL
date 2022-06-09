@@ -22,7 +22,7 @@
     <div class="logo">
         <div class="profile_pic">
             <a href="{{url('/dashboard')}}">
-                <img src="{{url('images/logo.jpg')}}" alt="KimLongTravel" width="70px" height="70px"
+                <img src="{{url('images/image/logo.png')}}" alt="KimLongTravel" width="70px" height="70px"
                      class="img-circle profile_img">
             </a>
         </div>

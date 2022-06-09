@@ -5330,6 +5330,7 @@
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/ticket/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/ticket/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_choose.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_choose.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -5644,7 +5645,7 @@
       <workItem from="1654567265266" duration="25825000" />
       <workItem from="1654678807867" duration="1646000" />
       <workItem from="1654700777111" duration="7851000" />
-      <workItem from="1654740434291" duration="424000" />
+      <workItem from="1654740434291" duration="472000" />
     </task>
     <servers />
   </component>
