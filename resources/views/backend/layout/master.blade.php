@@ -374,7 +374,7 @@
                                     <a href="{{route('cars.index')}}"><i class="fa fa-bus"></i> Quản lý xe</a>
                                 </li>
                                 <li>
-                                    <a><i class="fa fa-shopping-cart"></i> Quản lý hình ảnh <span
+                                    <a><i class="fa fa-file-image-o"></i> Quản lý hình ảnh <span
                                             class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
                                         @foreach($listXe as $c)
