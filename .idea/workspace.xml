@@ -5291,7 +5291,6 @@
       <change beforePath="$PROJECT_DIR$/resources/views/backend/checkouts/edit_checkout_status.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/checkouts/edit_checkout_status.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/checkouts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/checkouts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/checkouts/list_customer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/checkouts/list_customer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/layout/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/layout/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/stop_point/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/stop_point/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/stop_point/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/stop_point/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/tickets/report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/tickets/report.blade.php" afterDir="false" />
@@ -5663,6 +5662,7 @@
       <workItem from="1654678807867" duration="1646000" />
       <workItem from="1654700777111" duration="7851000" />
       <workItem from="1654740434291" duration="19388000" />
+      <workItem from="1654833024536" duration="16000" />
     </task>
     <servers />
   </component>
