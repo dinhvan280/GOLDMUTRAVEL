@@ -53,6 +53,7 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/CustomerRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CustomerRequest.php" afterDir="false" />
@@ -72,6 +73,7 @@
       <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/don_hang.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/don_hang.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/kimlong_travel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/kimlong_travel.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/kimlong_travel_server.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/kimlong_travel_server.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/tai_khoan.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/tai_khoan.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/ve_chuyen.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/ve_chuyen.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy/apache.conf" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/apache.conf" afterDir="false" />
@@ -5662,7 +5664,7 @@
       <workItem from="1654678807867" duration="1646000" />
       <workItem from="1654700777111" duration="7851000" />
       <workItem from="1654740434291" duration="19388000" />
-      <workItem from="1654833024536" duration="16000" />
+      <workItem from="1654833024536" duration="1262000" />
     </task>
     <servers />
   </component>

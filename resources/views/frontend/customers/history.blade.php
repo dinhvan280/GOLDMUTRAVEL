@@ -45,7 +45,7 @@
                     </nav>
                     <div class="row card-booking card-my-page mt-0"><h5>Lịch sử mua vé</h5></div>
 
-                    @if(count($veDat)>0)
+                    @if(count($veDat) != 0)
                         <div class="result_content" id="list_ticketed">
                             @include('frontend.customers.list_ticketed')
                         </div>

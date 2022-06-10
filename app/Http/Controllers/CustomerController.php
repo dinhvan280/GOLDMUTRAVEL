@@ -55,7 +55,7 @@ class CustomerController extends Controller
                     ->join('tuyen', 'chuyen.ma_tuyen', '=', 'tuyen.id')
                     ->where('chuyen_ngay.ngay', $dt->toDateString())
                     ->get();
-                return view('frontend.home.index', compact('user', 'listChuyen'));
+                return redirect()->route('carts.index');
             } else {
                 return back()->with('message', 'Thông tin đăng nhập không chính xác');
             }
