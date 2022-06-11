@@ -3,8 +3,8 @@
         <ul>
             <li><a routerlinkactive="active" href="{{url('gioi-thieu')}}">Giới thiệu</a>
             </li>
-            <li><a routerlinkactive="active" href="{{route('question')}}">Câu hỏi thường gặp</a>
-            </li>
+{{--            <li><a routerlinkactive="active" href="{{route('question')}}">Câu hỏi thường gặp</a>--}}
+{{--            </li>--}}
 {{--            <li><a routerlinkactive="active" href="/blog/huong-dan-dat-hang-va-thanh-toan">Hướng dẫn--}}
 {{--                    đặt hàng và thanh toán</a></li>--}}
 {{--            <li><a routerlinkactive="active" href="/blog/huong-dan-huy-ve">Hướng dẫn huỷ vé</a></li>--}}

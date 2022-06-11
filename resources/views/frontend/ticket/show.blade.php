@@ -88,7 +88,7 @@
                 <div class="ticket-item-price">
                     <span style="font-weight: bold;">Giá vé:</span>
                     <div class="price">{{ number_format(floatval($item->gia_ve), 0, ',', '.') . "đ" }}</div>
-                    <button type="button" class="btn-book" data-id="{{$items}}">Đặt vé</button>
+                    <button type="button" class="btn-book" data-id="{{$items}}" data-trip-day="{{$item->ma_cn}}">Đặt vé</button>
                 </div>
             </div>
             <div id="detail_{{$items}}">

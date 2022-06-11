@@ -55,7 +55,7 @@ class CustomerController extends Controller
                     ->join('tuyen', 'chuyen.ma_tuyen', '=', 'tuyen.id')
                     ->where('chuyen_ngay.ngay', $dt->toDateString())
                     ->get();
-                return redirect()->route('carts.index');
+                return redirect()->back();
             } else {
                 return back()->with('message', 'Thông tin đăng nhập không chính xác');
             }
@@ -171,6 +171,7 @@ class CustomerController extends Controller
         {
             $user->password = $request->password1;
             $user->save();
+            return redirect()->back();
         } else {
             return view('frontend.customers.change_password');
         }

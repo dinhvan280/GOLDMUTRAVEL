@@ -31,11 +31,13 @@
                         <div class="col-12 col-lg-6">
                             <div class="footer-item support"><h4>Hỗ trợ khách hàng</h4>
                                 <ul>
-                                    <li><a routerlinkactive="active" href="{{route('question')}}">Câu hỏi
-                                            thường gặp</a></li>
+{{--                                    <li><a routerlinkactive="active" href="{{route('question')}}">Câu hỏi--}}
+{{--                                            thường gặp</a></li>--}}
 {{--                                    <li><a routerlinkactive="active"--}}
 {{--                                           href="/blog/huong-dan-dat-hang-va-thanh-toan">Hướng dẫn đặt hàng--}}
 {{--                                            và thanh toán</a></li>--}}
+                                    <li><a routerlinkactive="active" href="{{route('complain')}}">Quy trình
+                                            giải quyết khiếu nại</a></li>
                                     <li><a routerlinkactive="active" href="#">Hướng dẫn
                                             huỷ vé</a></li><!---->
                                     <li><a routerlinkactive="active" href="{{route('contact')}}">Gửi yêu cầu hỗ trợ</a>
@@ -80,7 +82,7 @@
                         <ul>
                             <li><a routerlinkactive="active" href="{{url('gioi-thieu')}}">Giới thiệu</a>
                             </li>
-                            <li><a routerlinkactive="active" href="{{route('question')}}">Câu hỏi thường gặp</a>
+{{--                            <li><a routerlinkactive="active" href="{{route('question')}}">Câu hỏi thường gặp</a>--}}
                             </li>
                             <li><a routerlinkactive="active" href="{{route('term')}}">Điều
                                     khoản sử dụng</a></li>

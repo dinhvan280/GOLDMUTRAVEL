@@ -170,7 +170,7 @@
         <section class="ticket">
             <div class="container">
                 <div class="row ticket-suggest-title"><h3>Kết quả tìm kiếm</h3></div>
-                @if(count($trips) != 0)
+                @if(!empty($trips))
                     @foreach($trips as $items => $item)
                         <div class="row ticket-item">
                             <div class="ticket-item-img">
@@ -258,7 +258,7 @@
                             <div class="ticket-item-price">
                                 <span style="font-weight: bold;">Giá vé:</span>
                                 <div class="price">{{ number_format(floatval($item->gia_ve), 0, ',', '.') . "đ" }}</div>
-                                <button type="button" class="btn-book" data-trip_day="{{@$item->ma_cn}}"
+                                <button type="button" class="btn-book" data-trip-day="{{@$item->ma_cn}}"
                                         data-id="{{$items}}">Đặt vé
                                 </button>
                             </div>
@@ -491,7 +491,7 @@
                                         </div>
                                         <div class="col-12 col-lg-7" id="choose_location">
                                             <div id="trip-seat" class="mobile-seat-reverse reservePages">
-                                                @include('frontend.ticket.ticket_choose', ['chuyen' => $item])
+                                                @include('frontend.ticket.ticket_choose')
                                             </div>
                                             <div class="seat-action">
                                                 <button class="btn-cancel" data-id="{{$items}}" id="btn_close">Đóng
@@ -608,18 +608,21 @@
                                     </div>
                                 </dialog-message>
                             </div>
-                            @endforeach
-                            @else
-                                <div class="no-result search">
-                                    <img src="{{asset('assets/images/no-bug-covid.svg')}}"
-                                         style="width: 200px; height: 200px;"
-                                         alt="Không tìm thấy">
-                                    <p>Không tìm thấy kết quả phù hợp hoặc tuyến đường này đang bị hạn chế vì chỉ thị
-                                        chống dịch
-                                        COVID-19.</p>
-                                </div>
-                            @endif
                         </div>
+
+                    @endforeach
+                @else
+                    <div class="no-result search">
+                        <img src="{{asset('assets/images/no-bug-covid.svg')}}"
+                             style="width: 200px; height: 200px;"
+                             alt="Không tìm thấy">
+                        <p>Không tìm thấy kết quả phù hợp hoặc tuyến đường này đang bị hạn chế vì chỉ thị
+                            chống dịch
+                            COVID-19.</p>
+                    </div>
+                @endif
+            </div>
+
         </section>
         <dialog-message>
             <div tabindex="-1" role="dialog" aria-hidden="true" class="modal fade modal-custom" id="dialog-searchTrips">

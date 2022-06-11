@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\HinhAnh;
 use App\Models\Tuyen;
 use App\Models\TuyenDiemDo;
 use Illuminate\Http\Request;
@@ -103,13 +104,16 @@ class HomeController extends Controller
             ->groupBy('tuyen.id', 'chuyen.id')
             ->get();
 
+
         $tuyen = DB::table('tuyen')
             ->join('chuyen', 'chuyen.ma_tuyen', '=', 'tuyen.id')
             ->join('chuyen_ngay', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
+            ->join('xe', 'xe.id', '=', 'chuyen_ngay.ma_xe')
             ->where('tuyen.id', $result->ma_tuyen)
             ->first();
+        $image = HinhAnh::where('xe_id', $tuyen->ma_xe)->first();
 
-        return view('frontend.ticket.index', compact('trips', 'tuyen', 'time'));
+        return view('frontend.ticket.index', compact('trips', 'tuyen', 'time', 'image'));
     }
 
     public function question()

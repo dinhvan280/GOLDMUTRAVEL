@@ -7,7 +7,7 @@
                         <div class="seat-col">
                             <div class="checkbox point_pickup" data-point="{{$value->ten_dd}}" data-id="{{$items}}" data-time="{{date('G:i', strtotime($value->thoi_gian))}}">
                                 <input type="radio" name="pickupPoint" id="pickupPoint-{{$items}}" data-point="{{$value->ten_dd}}" value="{{$items}}">
-                                <label for="pickupPoint-{{$items}}">
+                                <label for="pickupPoint-{{$items}}" class="pickupPoint{{$items}}">
                                     <div class="point"><p>
                                             <span id="time_start">{{date('G:i', strtotime($value->thoi_gian))}}</span> {{$value->ten_dd}}
                                         </p>
