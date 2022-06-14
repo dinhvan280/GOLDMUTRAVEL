@@ -42,6 +42,7 @@ class CartController extends Controller
         //Phan biet don hang trong gio hang
         $keyPerson = getPersonTicket();
         $personTickets = Cache::get($keyPerson) ?? [];
+        dd($personTickets);
         if(!@$personTickets[$id]){
             $personTickets[$id] = $id;
 
