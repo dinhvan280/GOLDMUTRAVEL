@@ -148,9 +148,9 @@
                     } else {
                         $('div#ticket_choosed_list').html(response.html);
                         if (response.number > 0) {
-                            $('p#total_ticket').text(formatter.format(response.number * price) + ' ₫')
+                            $('#total_ticket').text(formatter.format(response.number * price) + ' ₫')
                         } else {
-                            $('p#total_ticket').text(0 + ' ₫')
+                            $('#total_ticket').text(0 + ' ₫')
                         }
                     }
                 },
@@ -181,7 +181,7 @@
             let point_end = $("p.end_point_0").text();
             let time_end = $("p.time_end_0").text();
             let number = $("p#number_ticket").text();
-            let list_ghe = $("p#list_ticket").text();
+            let list_ghe = $("#list_ticket").text();
             let price = self.find("h4.name_car").data('price');
             let url = "{{route('carts.add_to_cart')}}";
             $.ajax({
@@ -203,7 +203,7 @@
                 },
                 success: function (response) {
                     $("div#result_content").html(response);
-                    $('span#total_ticket_cart').text(parseInt($('span#total_ticket_cart').text()) + 1);
+                    $('#total_ticket_cart').text(parseInt($('span#total_ticket_cart').text()) + 1);
                     $(window).scrollTop(0)
                 },
             })
@@ -250,7 +250,7 @@
             $("div.dialog-cart").css('display', 'none')
         });
         $("body").on('click', "button.btn-cancel", function () {
-            $("div.dialog-cart").css('display', 'none')
+            $("div.ticket-book").removeClass('open')
         });
         $("body").on('click', "button.btn-confirm", function () {
             let id = $(this).data('id');

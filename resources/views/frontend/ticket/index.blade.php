@@ -475,9 +475,21 @@
                                                             <span> Ghế thường</span></li>
                                                     </ul>
                                                     <div class="mobile-seat-choose">
-                                                        <div>Ghế chọn: <span class="mobile-seat">Chưa chọn ghế</span>
+                                                        <div id="ticket_choosed_list">Ghế chọn: <span class="mobile-seat" id="list_ghe">
+                                                                @php
+                                                                    $key = getTicketName($item->ma_cn);@$ticket_choosed = \Illuminate\Support\Facades\Cache::get($key);
+                                                                @endphp
+                                                                @if(!empty($ticket_choosed))
+                                                                    @foreach($ticket_choosed as $items => $value)
+                                                                        {{(($loop->index == 0) ? '' : ',') . $value }}
+                                                                    @endforeach
+                                                                @else
+                                                                    Chưa chọn ghế
+                                                                @endif
+                                                            </span>
                                                         </div>
-                                                        <div>0 ₫</div>
+                                                        <div id="total_ticket">@if(!empty($ticket_choosed)) {{ number_format(floatval(count($ticket_choosed) * $item->gia_ve), 0, ',', '.') . "đ" }} @else
+                                                                    0 @endif</div>
                                                     </div>
                                                     <div class="detail-book-ticket">
                                                         <button type="button" class="btn-view-ticket">Thông tin chi tiết
@@ -507,11 +519,12 @@
                                                 <button class="btn-close-mobile">
                                                     <i aria-hidden="true" class="fa fa-times"></i></button>
                                                 <div class="content-info">
-                                                    <div class="content-info-header"><h4 class="name_car"
-                                                                                         data-id="{{$item->ma_cn}}"
-                                                                                         data-type="{{$item->ten_lx}}"
-                                                                                         data-price="{{$item->gia_ve}}"
-                                                                                         data-car="{{$item->ten_xe}}">{{$item->ten_xe}}
+                                                    <div class="content-info-header">
+                                                        <h4 class="name_car"
+                                                            data-id="{{$item->ma_cn}}"
+                                                            data-type="{{$item->ten_lx}}"
+                                                            data-price="{{$item->gia_ve}}"
+                                                            data-car="{{$item->ten_xe}}">{{$item->ten_xe}}
                                                             -
                                                             Chiều {{$item->chieu === 'di' ? 'đi' : 'về'}}</h4>
                                                         <div class="item"><p>Ngày đi</p>

@@ -68,69 +68,18 @@
                                                 <div class="slick-list draggable">
                                                     <div class="slick-track"
                                                          style="opacity: 1; width: 2408px; transform: translate3d(-688px, 0px, 0px);">
-                                                        <div class="slick-slide slick-cloned" data-slick-index="-1"
-                                                             aria-hidden="true" tabindex="-1" style="width: 344px;"><a
-                                                                href="https://blog.swio.vn/cac-dia-diem-nen-den-o-mu-cang-chai-phan-1/"
-                                                                target="_blank" class="image" tabindex="-1"><img
-                                                                    src="https://blog.swio.vn/wp-content/uploads/2021/09/deo-khau-pha-mu-cang-chai-min-525x375.jpg"
-                                                                    class="img-fluid">
-                                                                <p class="title">Các địa điểm nên đến ở Mù Cang Chải</p>
-                                                            </a></div>
-                                                        <div class="slick-slide" data-slick-index="0" aria-hidden="true"
-                                                             tabindex="-1" role="tabpanel" id="slick-slide00"
-                                                             aria-describedby="slick-slide-control00"
-                                                             style="width: 344px;"><a
-                                                                href="https://blog.swio.vn/ma-thien-lanh-tay-ninh/"
-                                                                target="_blank" class="image" tabindex="-1"><img
-                                                                    src="https://blog.swio.vn/wp-content/uploads/2022/01/Best-Travel-Instagram-Post-1.png"
-                                                                    class="img-fluid">
-                                                                <p class="title">Ma Thiên Lãnh Tây Ninh: “Đà Lạt” của
-                                                                    Đông Nam Bộ</p></a></div>
+
                                                         <div class="slick-slide slick-current slick-active"
                                                              data-slick-index="1" aria-hidden="false" tabindex="0"
                                                              role="tabpanel" id="slick-slide01"
                                                              aria-describedby="slick-slide-control01"
                                                              style="width: 344px;"><a
-                                                                href="https://blog.swio.vn/vi-sao-may-lang-thang-thu-hut-gioi-tre/"
+                                                                href="#"
                                                                 target="_blank" class="image" tabindex="0"><img
                                                                     src="https://blog.swio.vn/wp-content/uploads/2021/11/3401-den-da-lat-o-tro-tren-may-163346-1-min-1024x577.jpg"
-                                                                    class="img-fluid">
-                                                                <p class="title">Vì sao Mây Lang Thang thu hút giới
-                                                                    trẻ?</p></a></div>
-                                                        <div class="slick-slide" data-slick-index="2" aria-hidden="true"
-                                                             tabindex="-1" role="tabpanel" id="slick-slide02"
-                                                             aria-describedby="slick-slide-control02"
-                                                             style="width: 344px;"><a
-                                                                href="https://blog.swio.vn/cac-dia-diem-nen-den-o-mu-cang-chai-phan-1/"
-                                                                target="_blank" class="image" tabindex="-1"><img
-                                                                    src="https://blog.swio.vn/wp-content/uploads/2021/09/deo-khau-pha-mu-cang-chai-min-525x375.jpg"
-                                                                    class="img-fluid">
-                                                                <p class="title">Các địa điểm nên đến ở Mù Cang Chải</p>
-                                                            </a></div>
-                                                        <div class="slick-slide slick-cloned" data-slick-index="3"
-                                                             aria-hidden="true" tabindex="-1" style="width: 344px;"><a
-                                                                href="https://blog.swio.vn/ma-thien-lanh-tay-ninh/"
-                                                                target="_blank" class="image" tabindex="-1"><img
-                                                                    src="https://blog.swio.vn/wp-content/uploads/2022/01/Best-Travel-Instagram-Post-1.png"
-                                                                    class="img-fluid">
-                                                                <p class="title">Ma Thiên Lãnh Tây Ninh: “Đà Lạt” của
-                                                                    Đông Nam Bộ</p></a></div>
-                                                        <div class="slick-slide slick-cloned" data-slick-index="4"
-                                                             aria-hidden="true" tabindex="-1" style="width: 344px;"><a
-                                                                href="https://blog.swio.vn/vi-sao-may-lang-thang-thu-hut-gioi-tre/"
-                                                                target="_blank" class="image" tabindex="-1"><img
-                                                                    src="https://blog.swio.vn/wp-content/uploads/2021/11/3401-den-da-lat-o-tro-tren-may-163346-1-min-1024x577.jpg"
-                                                                    class="img-fluid">
-                                                                <p class="title">Vì sao Mây Lang Thang thu hút giới
-                                                                    trẻ?</p></a></div>
-                                                        <div class="slick-slide slick-cloned" data-slick-index="5"
-                                                             aria-hidden="true" tabindex="-1" style="width: 344px;"><a
-                                                                href="https://blog.swio.vn/cac-dia-diem-nen-den-o-mu-cang-chai-phan-1/"
-                                                                target="_blank" class="image" tabindex="-1"><img
-                                                                    src="https://blog.swio.vn/wp-content/uploads/2021/09/deo-khau-pha-mu-cang-chai-min-525x375.jpg"
-                                                                    class="img-fluid">
-                                                                <p class="title">Các địa điểm nên đến ở Mù Cang Chải</p>
-                                                            </a></div>
+                                                                    class="img-fluid"></a></div>
+
+
                                                     </div>
                                                 </div>
                                                 <button class="slick-next slick-arrow" aria-label="Next" type="button"
