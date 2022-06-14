@@ -28,9 +28,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-//        if(env('APP_ENV') != 'local'){
-//            $this->app['request']->server->set('HTTPS','on');
-//        }
+        if(env('APP_ENV') != 'local'){
+            $this->app['request']->server->set('HTTPS','on');
+        }
         View::share('key', 'value');
         Schema::defaultStringLength(191);
 
