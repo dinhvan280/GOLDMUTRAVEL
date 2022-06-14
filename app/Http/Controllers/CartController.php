@@ -42,7 +42,6 @@ class CartController extends Controller
         //Phan biet don hang trong gio hang
         $keyPerson = getPersonTicket();
         $personTickets = Cache::get($keyPerson) ?? [];
-        dd($personTickets);
         if(!@$personTickets[$id]){
             $personTickets[$id] = $id;
 
@@ -54,38 +53,40 @@ class CartController extends Controller
             $key = getTicketName($maCn);
             $list_ghe = Cache::get($key);
 
-            dd($list_ghe);
+            if(!$list_ghe || $list_ghe == null || $list_ghe == []){
+                continue;
+            }
 
-                $soVe = count($list_ghe);
-                $chuyenInfo = VeChuyen::join('chuyen_ngay', 've_chuyen.ma_cn', '=', 'chuyen_ngay.id')
-                    ->join('ghe_xe', 'ghe_xe.id', '=', 've_chuyen.ma_gx')
-                    ->join('xe', 'xe.id', '=', 'chuyen_ngay.ma_xe')
-                    ->join('loai_xe', 'xe.ma_lx', '=', 'loai_xe.id')
-                    ->join('chuyen', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
-                    ->where('chuyen_ngay.id', $id)
-                    ->first();
+            $soVe = count($list_ghe);
+            $chuyenInfo = VeChuyen::join('chuyen_ngay', 've_chuyen.ma_cn', '=', 'chuyen_ngay.id')
+                ->join('ghe_xe', 'ghe_xe.id', '=', 've_chuyen.ma_gx')
+                ->join('xe', 'xe.id', '=', 'chuyen_ngay.ma_xe')
+                ->join('loai_xe', 'xe.ma_lx', '=', 'loai_xe.id')
+                ->join('chuyen', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
+                ->where('chuyen_ngay.id', $id)
+                ->first();
 
-                $chuyenDetail = Cache::get($key . '_detail') ?? [];
+            $chuyenDetail = Cache::get($key . '_detail') ?? [];
 //            if(!$chuyenDetail){
-                $ttChuyen = [
-                    "ma_cn" => $id,
-                    "ghe" => $list_ghe,
-                    "ten_xe" => $request->car,
-                    "ten_lx" => $request->type,
-                    "diem_don" => $request->point_start,
-                    "diem_tra" => $request->point_end,
-                    "gio_don" => $request->time_start,
-                    "trang_thai" => $request->status,
-                    "gio_tra" => $request->time_end,
-                    "gia_ve" => $request->price,
-                    "so_luong" => $request->number,
-                    "ten_chuyen" => $chuyenInfo->ten_chuyen,
-                    "ngay" => $chuyenInfo->ngay,
-                    'so_ve' => $soVe,
-                    'tong_tien' => $request->price * $soVe
-                ];
-                $veDat[] = $ttChuyen;
-                Cache::put($key . '_detail', $ttChuyen, now()->addHours(24));
+            $ttChuyen = [
+                "ma_cn" => $id,
+                "ghe" => $list_ghe,
+                "ten_xe" => $request->car,
+                "ten_lx" => $request->type,
+                "diem_don" => $request->point_start,
+                "diem_tra" => $request->point_end,
+                "gio_don" => $request->time_start,
+                "trang_thai" => $request->status,
+                "gio_tra" => $request->time_end,
+                "gia_ve" => $request->price,
+                "so_luong" => $request->number,
+                "ten_chuyen" => $chuyenInfo->ten_chuyen,
+                "ngay" => $chuyenInfo->ngay,
+                'so_ve' => $soVe,
+                'tong_tien' => $request->price * $soVe
+            ];
+            $veDat[] = $ttChuyen;
+            Cache::put($key . '_detail', $ttChuyen, now()->addHours(24));
 
 
             try {
