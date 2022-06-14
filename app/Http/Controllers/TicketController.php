@@ -102,7 +102,7 @@ class TicketController extends Controller
 
         $html = view('frontend.ticket.number_ticket', compact('tickets', 'number'))->render();
 
-        return response()->json(['number' => $number, 'html' => $html, 'key' => $key], 200);
+        return response()->json(['number' => $number, 'html' => $html, 'key' => $key, 'cache' => Cache::get($key)], 200);
     }
 
     /**

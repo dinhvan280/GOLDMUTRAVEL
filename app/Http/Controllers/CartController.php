@@ -53,7 +53,7 @@ class CartController extends Controller
             $key = getTicketName($maCn);
             $list_ghe = Cache::get($key);
 
-//            dd($list_ghe);
+            dd($list_ghe);
 
                 $soVe = count($list_ghe);
                 $chuyenInfo = VeChuyen::join('chuyen_ngay', 've_chuyen.ma_cn', '=', 'chuyen_ngay.id')
@@ -86,10 +86,6 @@ class CartController extends Controller
                 $veDat[] = $ttChuyen;
                 Cache::put($key . '_detail', $ttChuyen, now()->addHours(24));
 
-
-//            } else {
-//                $veDat[] = $chuyenDetail;
-//            }
 
             try {
                 \DB::beginTransaction();
