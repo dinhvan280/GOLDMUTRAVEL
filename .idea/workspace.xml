@@ -30,7 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f429cb5-d4ed-4e01-a525-abc70714a83b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/backend/tickets/confirm.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/KimLongTravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KimLongTravel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
@@ -60,7 +59,6 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" afterDir="false" />
@@ -69,6 +67,7 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/RoadsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/RoadsRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Search.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/TripsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/TripsRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/ConFirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ConFirm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Mail/ResetPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ResetPassword.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Mail/SendMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/SendMail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/ChuyenNgay.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ChuyenNgay.php" afterDir="false" />
@@ -5304,6 +5303,7 @@
       <change beforePath="$PROJECT_DIR$/resources/views/backend/checkouts/list_customer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/checkouts/list_customer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/stop_point/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/stop_point/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/stop_point/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/stop_point/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/tickets/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/tickets/confirm.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/tickets/report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/tickets/report.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/tickets/tickets_report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/tickets/tickets_report.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/trips/list_customer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/trips/list_customer.blade.php" afterDir="false" />
@@ -5677,7 +5677,7 @@
       <workItem from="1654881166587" duration="7013000" />
       <workItem from="1654921538352" duration="4430000" />
       <workItem from="1655216271085" duration="6767000" />
-      <workItem from="1655309554400" duration="8780000" />
+      <workItem from="1655309554400" duration="8853000" />
     </task>
     <servers />
   </component>
