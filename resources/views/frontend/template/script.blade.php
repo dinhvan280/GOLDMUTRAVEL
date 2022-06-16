@@ -148,9 +148,9 @@
                     } else {
                         $('div#ticket_choosed_list').html(response.html);
                         if (response.number > 0) {
-                            $('#total_ticket').text(formatter.format(response.number * price) + ' ₫')
+                            $('p#total_ticket').text(formatter.format(response.number * price) + ' ₫')
                         } else {
-                            $('#total_ticket').text(0 + ' ₫')
+                            $('p#total_ticket').text(0 + ' ₫')
                         }
                     }
                 },

@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Xác Nhận Đơn Hàng</title>
+    <title>Thông báo có vé cần duyệt</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -54,7 +54,7 @@
                                                                                    target="_blank"
                                                                                    data-saferedirecturl="https://www.google.com/url?q=http://x9nv6.mjt.lu/lnk/CAAAAungbnkAAAAAAAAAABhCSBYAAAAAmIQAAAAAABihdgBildCZji_5zkKPRpu32w7Z8157LgAYB9c/1/jEEoxw2hqqLkmmTrAiLKvQ/aHR0cHM6Ly9zd2lvLnZuLw&amp;source=gmail&amp;ust=1654267042677000&amp;usg=AOvVaw0-FVa7QayajvgyWhEYFZaJ">
                                                                                     <img
-                                                                                        src="https://lh3.googleusercontent.com/Mcb9JqShq3O-gnomMC4pYh0WhKWK2zedkcrc3LDEHBY0h1dDwa6xdXzlJL61OK8SUEwWEHsK8t6j0mG4u6qgTL_YmrsnFTz0AmiiB1o9o2ZiQfGwa-FEV_dsK90KdTvvN9ywmjDimQ=w2400"
+                                                                                        src="https://ik.imagekit.io/7ptdevjl9zu/Kim_Long_Travel/logo_BpyEK516R.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654704283366"
                                                                                         alt="" height="45px"
                                                                                         class="CToWUd"> </a></td>
                                                                         </tr>
@@ -79,12 +79,10 @@
                                                             <tbody>
                                                             <tr>
                                                                 <td>
-                                                                    <p>KimLongTravel thân chào Quý Khách <span
-                                                                            style="font-weight:bold;color:#f48313">{{@$data->name}}</span>,
+                                                                    <p>KimLongTravel thông báo có vé cần duyệt ở chuyến
+                                                                        <span style="font-weight:bold;color:#f48313">{{$data->ten_chuyen}} Ngày {{date('d-m-Y', strtotime($data->ngay))}} Thời gian {{date('G:i', strtotime($data->gio))}}</span>,
                                                                     </p>
-                                                                    <p>Để lấy lại mật khẩu quý khách cần sao chép đoạn ký tự chúng tôi gửi bên dưới và thay đổi lại mật khẩu mới. Xin cảm ơn
-                                                                        <span style="color:#f48313"><br/>Mã:</span> {{@$data->password}}
-                                                                    </p>
+                                                                    <a style="color: #ff7d00; font-weight: bold" href="{{route('tickets.list', ['ma_cn' => $data->ma_cn])}}">Duyệt vé ngay</a>
                                                                 </td>
                                                             </tr>
                                                             </tbody>
@@ -121,7 +119,7 @@
 {{--                                                                                <p style="font-weight:700;margin-top:0;margin-bottom:5px;color:#f48313">--}}
 {{--                                                                                    {{$data->ten_chuyen}}</p>--}}
 {{--                                                                                <p style="font-size:16px;margin-top:0;font-style:italic">--}}
-{{--                                                                                    {{date('G:i', strtotime($data->gio))}} {{date('d/m/Y', strtotime($data->ngay))}}</p>--}}
+{{--                                                                                    {{date('d/m/Y', strtotime($data->ngay))}}</p>--}}
 {{--                                                                            </td>--}}
 {{--                                                                        </tr>--}}
 {{--                                                                        <tr>--}}
@@ -157,7 +155,7 @@
 {{--                                                                                <p style="opacity:0.8;margin-bottom:5px;font-size:16px">--}}
 {{--                                                                                    Giá vé</p>--}}
 {{--                                                                                <p style="font-weight:700;margin-top:0;color:#f48313">--}}
-{{--                                                                                    {{$data->gia_ve}} ₫</p>--}}
+{{--                                                                                    {{ number_format(floatval($data->gia_ve), 0, ',', '.') . "đ" }}</p>--}}
 {{--                                                                            </td>--}}
 {{--                                                                        </tr>--}}
 {{--                                                                        </tbody>--}}
@@ -168,40 +166,40 @@
 {{--                                                        </table>--}}
 {{--                                                    </td>--}}
 {{--                                                </tr>--}}
-                                                <tr>
-                                                    <td style="padding:30px">
-                                                        <table>
-                                                            <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <p style="font-weight:bold;font-size:18px">Bạn cần
-                                                                        hỗ trợ?</p>
-                                                                    <p>Email: <a
-                                                                            style="font-weight:bold;color:#f48313;font-size:16px;text-decoration:none"
-                                                                            href="mailto:kimlongtravel102@gmail.com" target="_blank">kimlongtravel102@gmail.com</a>
-                                                                        | Tổng đài: <a style="text-decoration:none"
-                                                                                       href="tel:1900636750"
-                                                                                       target="_blank"><span
-                                                                                style="font-weight:bold;color:#f48313">1900 20 53</span></a>
-                                                                    </p>
-                                                                    <p style="font-size:14px;opacity:0.8">(Giờ làm việc:
-                                                                        8:00 - 17:00)</p>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <p style="font-weight:200;opacity:0.8;font-size:14px">
-                                                                        KimLongTravel - Trang đặt vé xe khách trực tuyến hàng đầu
-                                                                        Việt Nam</p>
-                                                                    <p style="font-weight:200;opacity:0.8;font-size:14px">
-                                                                        Cảm ơn quý khách hàng đã luôn đồng hành cùng KimLongTravel.</p>
+{{--                                                <tr>--}}
+{{--                                                    <td style="padding:30px">--}}
+{{--                                                        <table>--}}
+{{--                                                            <tbody>--}}
+{{--                                                            <tr>--}}
+{{--                                                                <td>--}}
+{{--                                                                    <p style="font-weight:bold;font-size:18px">Bạn cần--}}
+{{--                                                                        hỗ trợ?</p>--}}
+{{--                                                                    <p>Email: <a--}}
+{{--                                                                            style="font-weight:bold;color:#f48313;font-size:16px;text-decoration:none"--}}
+{{--                                                                            href="mailto:kimlongtravel102@gmail.com" target="_blank">kimlongtravel102@gmail.com</a>--}}
+{{--                                                                        | Tổng đài: <a style="text-decoration:none"--}}
+{{--                                                                                       href="tel:1900636750"--}}
+{{--                                                                                       target="_blank"><span--}}
+{{--                                                                                style="font-weight:bold;color:#f48313">1900 20 53</span></a>--}}
+{{--                                                                    </p>--}}
+{{--                                                                    <p style="font-size:14px;opacity:0.8">(Giờ làm việc:--}}
+{{--                                                                        8:00 - 17:00)</p>--}}
+{{--                                                                </td>--}}
+{{--                                                            </tr>--}}
+{{--                                                            <tr>--}}
+{{--                                                                <td>--}}
+{{--                                                                    <p style="font-weight:200;opacity:0.8;font-size:14px">--}}
+{{--                                                                        KimLongTravel - Trang đặt vé xe khách trực tuyến hàng đầu--}}
+{{--                                                                        Việt Nam</p>--}}
+{{--                                                                    <p style="font-weight:200;opacity:0.8;font-size:14px">--}}
+{{--                                                                        Cảm ơn quý khách hàng đã luôn đồng hành cùng KimLongTravel.</p>--}}
 
-                                                                </td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                </tr>
+{{--                                                                </td>--}}
+{{--                                                            </tr>--}}
+{{--                                                            </tbody>--}}
+{{--                                                        </table>--}}
+{{--                                                    </td>--}}
+{{--                                                </tr>--}}
                                                 </tbody>
                                             </table>
                                         </div>

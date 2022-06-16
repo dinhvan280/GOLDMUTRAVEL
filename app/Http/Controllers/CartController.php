@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ConFirm;
 use App\Models\ChuyenNgay;
 use App\Models\GheXe;
 use App\Models\VeChuyen;
@@ -10,6 +11,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
 use \Illuminate\Support\Facades\Cache;
 use phpDocumentor\Reflection\Type;
+use Illuminate\Support\Facades\Mail;
 
 class CartController extends Controller
 {
@@ -87,7 +89,6 @@ class CartController extends Controller
             ];
             $veDat[] = $ttChuyen;
             Cache::put($key . '_detail', $ttChuyen, now()->addHours(24));
-
 
             try {
                 \DB::beginTransaction();

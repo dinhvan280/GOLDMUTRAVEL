@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ConFirm;
 use App\Models\DonHang;
 use App\Models\GheXe;
 use App\Models\TaiKhoan;
 use App\Models\VeChuyen;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Mail;
 
 class CheckoutController extends Controller
 {
@@ -177,6 +179,17 @@ class CheckoutController extends Controller
             ->join('don_hang', 'don_hang.id', '=', 've_chuyen.ma_dh')
             ->where('ve_chuyen.ma_dh', $donHang->id)
             ->get();
+
+        $infoTicket = VeChuyen::join('chuyen_ngay', 'chuyen_ngay.id', '=', 've_chuyen.ma_cn')
+            ->select('ve_chuyen.*', 'chuyen.ten_chuyen', 'loai_xe.gia_ve', 'chuyen_ngay.ngay', 'ghe_xe.ky_hieu')
+            ->join('chuyen', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
+            ->join('ghe_xe', 'ghe_xe.id', '=', 've_chuyen.ma_gx')
+            ->join('loai_xe', 'loai_xe.id', '=', 'ghe_xe.ma_lx')
+            ->join('don_hang', 'don_hang.id', '=', 've_chuyen.ma_dh')
+            ->where('ve_chuyen.ma_dh', $donHang->id)
+            ->first();
+
+        Mail::to('kimlongtravel102@gmail.com')->send(new ConFirm($infoTicket));
 
 
         return view('frontend.checkouts.success', compact( 'veDat'));
