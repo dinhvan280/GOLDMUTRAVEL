@@ -84,11 +84,11 @@ class TicketsController extends Controller
     public function storeTickets($ma_cn)
     {
 
-        $gheXe = DB::table('ghe_xe')
+        $gheXe = DB::table('chuyen_ngay')
             ->select('ghe_xe.id', 'ghe_xe.thu_tu')
-            ->join('loai_xe', 'loai_xe.id', '=', 'ghe_xe.ma_lx')
-            ->join('chuyen', 'chuyen.ma_lx', '=','loai_xe.id')
-            ->join('chuyen_ngay', 'chuyen_ngay.ma_chuyen', '=', 'chuyen.id')
+            ->join('xe', 'xe.id', '=', 'chuyen_ngay.ma_xe')
+            ->join('loai_xe', 'loai_xe.id', '=', 'xe.ma_lx')
+            ->join('ghe_xe', 'ghe_xe.ma_lx', '=', 'loai_xe.id')
             ->groupBy('ghe_xe.id', 'ghe_xe.thu_tu')
             ->where('chuyen_ngay.id', $ma_cn)
             ->get();
@@ -240,7 +240,9 @@ class TicketsController extends Controller
 
             if($request->trang_thai == 2)
             {
-                Mail::to($customer)->send(new SendMail($dataMail, $customer));
+                Mail::to($customer)
+//                    ->cc(['Hna.tvchung@gmail.com'])
+                    ->send(new SendMail($dataMail, $customer));
             }
 
             return redirect()->route('tickets.list', ['ma_cn' => $veChuyen->ma_cn]);

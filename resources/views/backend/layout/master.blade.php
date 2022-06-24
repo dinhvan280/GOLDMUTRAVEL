@@ -15,9 +15,23 @@
     <link href="{{asset('libs/iCheck/skins/flat/green.css')}}" rel="stylesheet">
     <link href="{{asset('libs/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css')}}" rel="stylesheet">
     <link href="{{asset('libs/jqvmap/dist/jqvmap.min.css')}}" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <!-- Custom Theme Style -->
     <link href="{{asset('build/css/custom.min.css')}}" rel="stylesheet">
     <link href="{{asset('backend/css/style.css')}}" rel="stylesheet">
+    <style>
+        li.select2-selection__choice {color: black;}
+
+        span#select2-product-category-container-choice-4o5r-2 {margin-left: 12px;}
+
+        button.select2-selection__choice__remove {margin: 3px 0px;}
+        ect2-product-category-container-choice-qfab-2 {margin: 0px 15px;height: 10px;color: black;padding: 0px;}
+        .select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+            cursor: default;
+            padding-left: 16px;
+            padding-right: 5px;
+        }
+    </style>
     <script type="text/javascript">
         window.onload = function () {//from ww  w . j  a  va2s. c  o  m
             var today = new Date().toISOString().split('T')[0];
@@ -553,6 +567,7 @@
 <!-- bootstrap-daterangepicker -->
 <script src="{{asset('js/moment/moment.min.js')}}"></script>
 <script src="{{asset('js/datepicker/daterangepicker.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
 @stack('js')
 

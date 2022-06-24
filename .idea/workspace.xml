@@ -59,6 +59,7 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" afterDir="false" />
@@ -5297,18 +5298,26 @@
       <change beforePath="$PROJECT_DIR$/resources/views/backend/car_image/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/car_image/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/car_image/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/car_image/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/car_image/list_image.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/car_image/list_image.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/cars/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/cars/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/cars/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/cars/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/cars/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/cars/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/checkouts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/checkouts/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/checkouts/edit_checkout_status.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/checkouts/edit_checkout_status.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/checkouts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/checkouts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/checkouts/list_customer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/checkouts/list_customer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/layout/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/layout/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/stop_point/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/stop_point/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/stop_point/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/stop_point/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/tickets/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/tickets/confirm.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/tickets/report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/tickets/report.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/tickets/tickets_report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/tickets/tickets_report.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/trips/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/trips/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/trips/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/trips/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/trips/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/trips/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/trips/list_customer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/trips/list_customer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/trips/report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/trips/report.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/trips/trips_report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/trips/trips_report.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/trips/trips_road.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/trips/trips_road.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/trips_day/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/trips_day/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/trips_day/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/trips_day/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/trips_day/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/trips_day/index.blade.php" afterDir="false" />
@@ -5357,6 +5366,7 @@
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/ticket/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/ticket/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_choose.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_choose.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/ticket/ticket_detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -5677,7 +5687,17 @@
       <workItem from="1654881166587" duration="7013000" />
       <workItem from="1654921538352" duration="4430000" />
       <workItem from="1655216271085" duration="6767000" />
-      <workItem from="1655309554400" duration="8853000" />
+      <workItem from="1655309554400" duration="10045000" />
+      <workItem from="1655438344347" duration="595000" />
+      <workItem from="1655525624426" duration="9215000" />
+      <workItem from="1655698978314" duration="14986000" />
+      <workItem from="1655804274411" duration="1420000" />
+      <workItem from="1655830154252" duration="4004000" />
+      <workItem from="1655855120832" duration="3856000" />
+      <workItem from="1655862244239" duration="1741000" />
+      <workItem from="1655872299082" duration="625000" />
+      <workItem from="1656042566042" duration="695000" />
+      <workItem from="1656044369096" duration="47000" />
     </task>
     <servers />
   </component>
@@ -5722,15 +5742,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="546" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1655310744451" />
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1655314677377">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1655530953608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1654485191075" />
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1655530953608" />
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1655314677377" />
     <state x="453" y="43" key="#phpunit.xml" timestamp="1654019282806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="453" y="43" key="#phpunit.xml/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1654019282806" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1655857763352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1655857763352" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1653232269496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -5753,21 +5777,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="0" width="1116" height="810" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1653550333147" />
-    <state x="2519" y="18" width="723" height="1004" key="find.popup" timestamp="1655224308272">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="479" y="14" width="578" height="795" key="find.popup" timestamp="1655858897305">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="479" y="14" width="578" height="795" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1654027127524" />
+    <state x="479" y="14" width="578" height="795" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1655858897305" />
     <state x="2519" y="18" width="723" height="1004" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1655224308272" />
     <state x="479" y="14" width="578" height="795" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1654073720505" />
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1655720803722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1655720803722" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1654154997969">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1653589264060" />
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1654154997969" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1654151619819">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1655857861103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1654102897881" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1655857861103" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1654151619819" />
   </component>
   <component name="XDebuggerManager">

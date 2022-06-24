@@ -43,7 +43,7 @@
                                     <th class="text-center">Điểm đón</th>
                                     <th class="text-center">Giờ đón</th>
                                     <th class="text-center">Điểm trả</th>
-                                    <th class="text-center">Giờ đón</th>
+                                    <th class="text-center">Giờ trả</th>
                                     <th class="text-center">Giá vé</th>
                                     <th class="text-center">Trạng thái</th>
                                     <th class="text-center">Cập nhật</th>

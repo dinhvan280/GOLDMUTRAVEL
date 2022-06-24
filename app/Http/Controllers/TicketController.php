@@ -234,10 +234,10 @@ class TicketController extends Controller
         $diemDi = $request->diemDi;
         $diemDen = $request->diemDen;
         $time = $request->day;
+//        dd($request->all());
         $result = DB::table('diem_do')
             ->join('tuyen_diemdo', 'tuyen_diemdo.ma_dd', '=', 'diem_do.id')
-            ->where('diem_do.ten_dd', $diemDi)
-            ->where('diem_do.ten_dd', $diemDi)
+            ->where('diem_do.ten_dd', 'like', '%' . $diemDi . '%')
             ->distinct()
             ->first();
 
@@ -270,21 +270,9 @@ class TicketController extends Controller
             ->join('xe', 'xe.id', '=', 'tmp.ma_xe')
             ->join('loai_xe', 'loai_xe.id', '=', 'xe.ma_lx')
             ->where('tuyen.id', '=', $result->ma_tuyen)
-//            ->where('xe.id', $ma_xe)
             ->where('tmp.ngay', Carbon::createFromFormat('d/m/Y', $request->day)->format('Y-m-d'))
             ->groupBy('tuyen.id', 'chuyen.id')
             ->get();
-
-//        $trips = DB::table('chuyen')
-//            ->select('chuyen.*', 'tuyen.ten_tuyen', 'xe.ten_xe', 'loai_xe.ten_lx', 'loai_xe.gia_ve', 'tuyen.diem_dau', 'tuyen.diem_cuoi')
-//            ->join('chuyen_ngay', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
-//            ->join('tuyen', 'chuyen.ma_tuyen', '=', 'tuyen.id')
-//            ->join('xe', 'chuyen_ngay.ma_xe', '=', 'xe.id')
-//            ->join('loai_xe', 'loai_xe.id', '=', 'xe.ma_lx')
-//            ->where('chuyen.ma_tuyen', $result->ma_tuyen)
-//            ->where('chuyen_ngay.ngay', Carbon::createFromFormat('d/m/Y', $request->day)->format('Y-m-d'))
-//            ->orderBy('chuyen.gio', 'asc')
-//            ->get();
 
         $tuyen = DB::table('tuyen')
             ->join('chuyen', 'chuyen.ma_tuyen', '=', 'tuyen.id')
@@ -292,7 +280,10 @@ class TicketController extends Controller
             ->where('tuyen.id', $result->ma_tuyen)
             ->first();
 
-        return view('frontend.ticket.show', compact('trips', 'tuyen', 'time'));
+        $image = HinhAnh::where('xe_id', $tuyen->ma_xe)->first();
+        $images = HinhAnh::where('xe_id', $tuyen->ma_xe)->get();
+
+        return view('frontend.ticket.show', compact('trips', 'tuyen', 'time', 'image', 'images'));
     }
 
     public function filterTime(Request $request)

@@ -176,10 +176,10 @@
             let car = self.find("h4.name_car").data("car");
             let type = self.find("h4.name_car").data("type");
             let date_start = $("p#date_start").text();
-            let point_start = $("p.start_point_0").text();
-            let time_start = $("p.time_start_0").text();
-            let point_end = $("p.end_point_0").text();
-            let time_end = $("p.time_end_0").text();
+            let point_start = $("p.start_point_" + id).text();
+            let time_start = $("p.time_start_" + id).text();
+            let point_end = $("p.end_point_" + id).text();
+            let time_end = $("p.time_end_" + id).text();
             let number = $("p#number_ticket").text();
             let list_ghe = $("#list_ticket").text();
             let price = self.find("h4.name_car").data('price');
@@ -284,20 +284,20 @@
             }
             this.classList.add("active")
         });
-        $("body").on('click', '#btn-search', function () {
-            var diemDi = $('.diemDi').val();
-            var diemDen = $('.diemDen').val();
-            var date = $('.time_go').val();
-            let url = "{{ route('trips.find')}}";
-            $.ajax({
-                url: url,
-                method: "POST",
-                data: {_token: "{{ csrf_token() }}", 'diemDi': diemDi, 'diemDen': diemDen, 'day': date},
-                success: function (response) {
-                    $('section.ticket').html(response)
-                },
-            })
-        });
+        {{--$("body").on('click', '#btn-search', function () {--}}
+        {{--    var diemDi = $('.diemDi').val();--}}
+        {{--    var diemDen = $('.diemDen').val();--}}
+        {{--    var date = $('.time_go').val();--}}
+        {{--    let url = "{{ route('trips.find')}}";--}}
+        {{--    $.ajax({--}}
+        {{--        url: url,--}}
+        {{--        method: "POST",--}}
+        {{--        data: {_token: "{{ csrf_token() }}", 'diemDi': diemDi, 'diemDen': diemDen, 'day': date},--}}
+        {{--        success: function (response) {--}}
+        {{--            $('section.ticket').html(response)--}}
+        {{--        },--}}
+        {{--    })--}}
+        {{--});--}}
         $("#datepicker").datetimepicker({
             timepicker: !1,
             format: 'd/m/Y',

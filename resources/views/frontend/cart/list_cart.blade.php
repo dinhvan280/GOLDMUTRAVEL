@@ -43,14 +43,14 @@
                                         <div class="ticket-content-from">
                                             <div><p class="ticket-content-title">Nơi đi</p>
                                                 <p class="ticket-content-info pickup"
-                                                   title="{{@$cart['diem_don']}}">{{@$cart['diem_don']}}</p></div>
+                                                   title="{{$cart['diem_don']}}">{{$cart['diem_don']}}</p></div>
                                             <div><p class="ticket-content-title">Thời gian đi</p>
                                                 <p class="ticket-content-info">{{@$cart['gio_don']}}</p></div>
                                         </div>
                                         <div class="ticket-content-to">
                                             <div><p class="ticket-content-title">Nơi đến</p>
                                                 <p class="ticket-content-info dropoff"
-                                                   title="{{@$cart['diem_tra']}}">{{@$cart['diem_tra']}}</p></div>
+                                                   title="{{$cart['diem_tra']}}">{{$cart['diem_tra']}}</p></div>
                                             <div><p class="ticket-content-title">Thời gian đến</p>
                                                 <p class="ticket-content-info">{{@$cart['gio_tra']}}</p></div>
                                         </div>

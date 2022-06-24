@@ -29,11 +29,16 @@
                                         <span class="required">*</span>
                                     </label>
                                     <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <select name="ten_chuyen" id="" class="form-control" {{old('ten_chuyen')}}>
+                                        <select class="form-control" multiple="multiple" name="list_chuyen[]" id="list_chuyen">
                                             @foreach($listChuyen as $chuyen)
                                                 <option value="{{$chuyen->id}}">{{$chuyen->ten_chuyen}} - {{$chuyen->gio}} - {{$chuyen->chieu}}</option>
                                             @endforeach
                                         </select>
+{{--                                        <select name="ten_chuyen" id="" class="form-control" {{old('ten_chuyen')}}>--}}
+
+{{--                                                <option value="{{$chuyen->id}}">{{$chuyen->ten_chuyen}} - {{$chuyen->gio}} - {{$chuyen->chieu}}</option>--}}
+{{--                                            @endforeach--}}
+{{--                                        </select>--}}
                                     </div>
                                 </div>
                                 <div class="item form-group">
@@ -95,10 +100,23 @@
 
 @push('js')
 <script src="{{asset('libs/ckeditor/ckeditor.js')}}"></script>
-
 <script>
-    CKEDITOR.replace('editor1', {
-        filebrowserUploadUrl: "{{url("/upload.php")}}",
+    $('.multi.required').on('keyup blur', 'input', function () {
+        validator.checkField.apply($(this).siblings().last()[0]);
+    });
+    // $(".js-example-tokenizer").select2({
+    //     tags: true,
+    //     tokenSeparators: [',', ' ']
+    // })
+    $(document).ready(function() {
+        $('#list_chuyen').select2();
     });
 </script>
+<script>
+    {{--CKEDITOR.replace('editor1', {--}}
+    {{--    filebrowserUploadUrl: "{{url("/upload.php")}}",--}}
+    {{--});--}}
+
+</script>
+
 @endpush

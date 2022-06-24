@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Exports\TripsExport;
 use App\Http\Controllers\Controller;
+use App\Models\Chuyen;
 use App\Models\User;
 use App\Models\VeChuyen;
 use App\Models\Xe;
@@ -39,11 +40,12 @@ class TripsDayController extends Controller
      */
     public function create()
     {
+        $listChuyenDi = Chuyen::where('chieu', 'di')->get();
         $listXe = DB::table('xe')
             ->select('xe.*', 'loai_xe.ten_lx')
             ->join('loai_xe', 'xe.ma_lx', '=', 'loai_xe.id')->get();
         $drivers = User::where('type', 'laixe')->get();
-        return view('backend.trips_day.create', compact('listXe', 'drivers'));
+        return view('backend.trips_day.create', compact('listXe', 'drivers', 'listChuyenDi'));
     }
 
     /**
@@ -56,15 +58,39 @@ class TripsDayController extends Controller
     {
         try {
             \DB::beginTransaction();
+            $list_chuyen = [];
+            $list_chuyen = $request->input('list_chuyen');
 
-            $data = [
-                'ma_chuyen' => $request->ten_chuyen,
-                'ma_xe' => $request->ten_xe,
-                'ma_tx' => $request->ten_tx,
-                'ngay' => $request->setTodaysDate,
-            ];
+            foreach ($list_chuyen as $k => $value)
+            {
+                $data = [
+                    'ma_chuyen' => $value,
+                    'ma_xe' => $request->ten_xe,
+                    'ma_tx' => $request->ten_tx,
+                    'ngay' => $request->setTodaysDate,
+                ];
 
-            ChuyenNgay::create($data);
+                $chuyenNgay = ChuyenNgay::create($data);
+
+                $gheXe = DB::table('chuyen_ngay')
+                    ->select('ghe_xe.id', 'ghe_xe.thu_tu')
+                    ->join('xe', 'xe.id', '=', 'chuyen_ngay.ma_xe')
+                    ->join('loai_xe', 'loai_xe.id', '=', 'xe.ma_lx')
+                    ->join('ghe_xe', 'ghe_xe.ma_lx', '=', 'loai_xe.id')
+                    ->groupBy('ghe_xe.id', 'ghe_xe.thu_tu')
+                    ->where('chuyen_ngay.id', $chuyenNgay->id)
+                    ->get();
+
+                $data = [];
+                foreach ($gheXe as $key => $value)
+                {
+                    $data[] = [
+                        'ma_cn' => $chuyenNgay->id,
+                        'ma_gx' => $value->id,
+                    ];
+                }
+                VeChuyen::insert($data);
+            }
 
             \DB::commit();
             return redirect()->route('trips_day.index');
@@ -99,11 +125,12 @@ class TripsDayController extends Controller
             ->leftJoin('xe', 'chuyen_ngay.ma_xe', '=', 'xe.id')
             ->where('chuyen_ngay.id', '=', $id)
             ->first();
+        $trips = ChuyenNgay::where('id', $id)->pluck('ma_chuyen')->toArray();
         $listXe = Xe::all();
         $drivers = User::where('type', 'laixe')->get();
         $driver = ChuyenNgay::join('users', 'chuyen_ngay.ma_tx', '=', 'users.id')
             ->where('type', 'laixe')->where('chuyen_ngay.id', $id)->first();
-        return view('backend.trips_day.edit', compact('chuyenNgay', 'listXe', 'driver', 'drivers'));
+        return view('backend.trips_day.edit', compact('chuyenNgay', 'listXe', 'driver', 'drivers', 'trips'));
 
     }
 

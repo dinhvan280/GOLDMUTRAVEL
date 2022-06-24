@@ -35,14 +35,6 @@ class AppServiceProvider extends ServiceProvider
         Schema::defaultStringLength(191);
 
         $listChuyen = DB::table('chuyen')->get();
-//            ->select('chuyen.*', 'tuyen.diem_dau', 'tuyen.ten_tuyen', 'tuyen.diem_cuoi', 'tuyen.diem_dn', 'xe.anh', 'xe.ten_xe', 'xe.ma_lx', 'loai_xe.so_ghe', 'chuyen_ngay.ngay', 'chuyen_ngay.ma_xe')
-//            ->leftJoin('tuyen', 'chuyen.ma_tuyen', '=', 'tuyen.id')
-//            ->leftJoin('loai_xe', 'chuyen.ma_lx', '=', 'loai_xe.id')
-//            ->leftJoin('chuyen_ngay', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
-//            ->leftJoin('xe', 'chuyen_ngay.ma_xe', '=', 'xe.id')
-//            ->groupBy('chuyen.id', 'tuyen.id', 'xe.id', 'loai_xe.id', 'chuyen_ngay.id')
-//            ->get();
-
 
         $chuyen = DB::table('chuyen')
             ->select('chuyen.*', 'tuyen.diem_dau', 'tuyen.ten_tuyen', 'tuyen.diem_cuoi', 'tuyen.diem_dn', 'loai_xe.so_ghe')

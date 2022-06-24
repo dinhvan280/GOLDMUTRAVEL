@@ -1,5 +1,5 @@
 @extends('backend.layout.master')
-@section('title', 'Nula Cosmetic | Dashboard')
+@section('title', 'Danh dách chuyến | Dashboard')
 
 @section('content')
     <!-- page content -->
@@ -51,6 +51,7 @@
                                     <th class="text-center" style="width:10%">Tên chuyến</th>
                                     <th class="text-center" style="width:15%">Tên Tuyến</th>
                                     <th class="text-center" style="width:15%">Thời gian</th>
+                                    <th class="text-center" style="width:10%">Thứ tự</th>
                                     <th class="text-center" style="width:10%">Chiều</th>
                                     <th class="text-center" style="width:10%">Hành động</th>
                                 </tr>
@@ -74,6 +75,9 @@
                                         </td>
                                         <td class="text-center">
                                             ({{date('G:i', strtotime($value->gio))}})
+                                        </td>
+                                        <td class="text-center">
+                                            {{$value->thu_tu}}
                                         </td>
                                         @if($value->chieu == 'di')
                                             <td class="text-center">

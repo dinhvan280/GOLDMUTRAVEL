@@ -131,7 +131,6 @@
     <!-- validator -->
     <script src="{{asset('libs/validator/validator.js')}}"></script>
 
-    <script src="{{asset('build/js/custom.js')}}"></script>
     <script>
         // initialize the validator function
         validator.message.date = 'not a real date';

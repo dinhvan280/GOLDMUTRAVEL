@@ -32,10 +32,10 @@ class CustomerRequest extends FormRequest
     public function messages()
     {
         return [
-            'email.required' => 'Email là trường bắt buộc',
-            'email.email' => 'Email không đúng định dạng',
-            'password.required' => 'Mật khẩu là trường bắt buộc',
-            'password.min' => 'Mật khẩu phải chứa ít nhất 8 ký tự',
+//            'email.required' => 'Email là trường bắt buộc',
+//            'email.email' => 'Email không đúng định dạng',
+//            'password.required' => 'Mật khẩu là trường bắt buộc',
+//            'password.min' => 'Mật khẩu phải chứa ít nhất 8 ký tự',
         ];
     }
 }

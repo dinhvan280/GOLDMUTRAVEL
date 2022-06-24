@@ -30,7 +30,7 @@ Route::post('hoan-tat-dat-ve', 'CheckoutController@success')->name('store.checko
 
 Route::get('huy-ve-dat-ve', 'CheckoutController@destroyTicket')->name('destroy.ticketed');
 
-Route::post('tim-chuyen-theo-ngay', 'TicketController@search')->name('trips.find');
+Route::get('tim-chuyen-theo-ngay', 'TicketController@search')->name('trips.find');
 
 Route::get('/gio-hang', 'CartController@index')->name('carts.index');
 

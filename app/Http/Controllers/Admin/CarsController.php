@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Models\HinhAnh;
 use App\Models\LoaiXe;
 use App\Models\TaiKhoan;
 use App\Models\Xe;
@@ -55,20 +56,20 @@ class CarsController extends Controller
         try {
             \DB::beginTransaction();
 
-            $path = "images/uploads/cars";
-            $image = $request->image;
-            $file_path = "";
-            if ($request->image) {
-                $extension = $image->extension();
-                $file_name = "Kim_Long_Travel_cars_" . time() .  '.' . $extension;
-                $file_path = $path . '/' . $file_name;
-                $image->move($path . '/', $file_name);
-            }
+//            $path = "images/uploads/cars";
+//            $image = $request->image;
+//            $file_path = "";
+//            if ($request->image) {
+//                $extension = $image->extension();
+//                $file_name = "Kim_Long_Travel_cars_" . time() .  '.' . $extension;
+//                $file_path = $path . '/' . $file_name;
+//                $image->move($path . '/', $file_name);
+//            }
 
             $data = [
                 'ten_xe' => $request->ten_xe,
                 'bien_so' => $request->bien_so,
-                'anh' => $file_path,
+//                'anh' => $file_path,
                 'gioi_thieu' => $request->gioi_thieu,
                 'ma_lx' => $request->ma_lx,
             ];
@@ -132,20 +133,20 @@ class CarsController extends Controller
     public function update(Request $request, $id)
 
     {
-        $path = "images/uploads/cars";
-        $image = $request->image;
+//        $path = "images/uploads/cars";
+//        $image = $request->image;
         try {
             \DB::beginTransaction();
 
             $xe = Xe::find($id);
 
-            if ($image) {
-                $extension = $image->extension();
-                $file_name = "Kim_Long_Travel_Cars_" . time() . '.' . $extension;
-                $file_path = $path . '/' . $file_name;
-                $image->move($path . '/', $file_name);
-                $xe->anh = $file_path;
-            }
+//            if ($image) {
+//                $extension = $image->extension();
+//                $file_name = "Kim_Long_Travel_Cars_" . time() . '.' . $extension;
+//                $file_path = $path . '/' . $file_name;
+//                $image->move($path . '/', $file_name);
+//                $xe->anh = $file_path;
+//            }
 
             $xe->ten_xe = $request->ten_xe;
             $xe->bien_so = $request->bien_so;
@@ -174,13 +175,13 @@ class CarsController extends Controller
     public function destroy($id)
     {
         $xe = Xe::find($id);
+        $xe_anh = HinhAnh::where('xe_id', $id)->delete();
         if (empty($xe)) {
             return redirect()->back();
         }
         $xe->delete();
         return redirect()->back();
     }
-
 
 }
 

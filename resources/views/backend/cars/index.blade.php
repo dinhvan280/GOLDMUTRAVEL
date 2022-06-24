@@ -123,12 +123,12 @@
         //----------------Datatables-----------
         var $datatable = $('#datatable-buttons');
 
-        $datatable.dataTable({
-            'order': [[1, 'asc']],
-            'columnDefs': [
-                {orderable: true, targets: [0]}
-            ]
-        });
+        // $datatable.dataTable({
+        //
+        //     'columnDefs': [
+        //         {orderable: true, targets: [0]}
+        //     ]
+        // });
 
         $(":input").inputmask();
         function ConfirmDelete() {

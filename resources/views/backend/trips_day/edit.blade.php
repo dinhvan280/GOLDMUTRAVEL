@@ -34,12 +34,11 @@
                                     <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Tên chuyến<span class="required">*</span>
                                     </label>
                                     <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <select name="ten_chuyen" id="" class="form-control" value="{{$chuyenNgay->ten_chuyen}}">
-                                            <option value="{{$chuyenNgay->ma_chuyen}}">{{$chuyenNgay->ten_chuyen}}</option>
-                                            @foreach($listChuyen as $c)
-                                                <option value="{{$c->id}}">{{$c->ten_chuyen}}</option>
-                                            @endforeach
-                                        </select>
+                                            <select class="form-control" multiple="multiple" name="ten_chuyen" id="list_chuyen">
+                                                @foreach($listChuyen as $chuyen)
+                                                    <option value="{{$chuyen->id}}">{{$chuyen->ten_chuyen}} - {{$chuyen->gio}} - {{$chuyen->chieu}}</option>
+                                                @endforeach
+                                            </select>
                                     </div>
                                 </div>
                                 <div class="item form-group">
@@ -102,8 +101,15 @@
     <script src="{{asset('libs/ckeditor/ckeditor.js')}}"></script>
 
     <script>
-        CKEDITOR.replace('editor1', {
-            filebrowserUploadUrl: "{{url("/upload.php")}}",
+        $('.multi.required').on('keyup blur', 'input', function () {
+            validator.checkField.apply($(this).siblings().last()[0]);
         });
+        $(document).ready(function() {
+            $('#list_chuyen').select2();
+            $("#list_chuyen").val(@json($trips)).change()
+        });
+        {{--CKEDITOR.replace('editor1', {--}}
+        {{--    filebrowserUploadUrl: "{{url("/upload.php")}}",--}}
+        {{--});--}}
     </script>
 @endpush

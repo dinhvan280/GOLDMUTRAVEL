@@ -2,7 +2,7 @@
     <div class="row card-booking">
         @php $tongTien = 0; @endphp
         @if(count($veDat)>0)
-            @foreach($veDat as $id => $cart)
+        @foreach($veDat as $id => $cart)
                 <div class="ticket-item">
                     <div class="ticket-item-info">
                         <div class="ticket-header">
@@ -25,9 +25,11 @@
                                     </div>
                                     <div><p class="ticket-content-title">Ghế chọn</p>
                                         <p class="ticket-content-info">
-                                            @foreach($cart['ghe'] as $k => $value)
-                                                {{(($loop->index == 0) ? '' : ',') . $value }}
-                                            @endforeach
+                                            @if(@$cart['ghe'])
+                                                @foreach(@$cart['ghe'] as $k => $value)
+                                                    {{(($loop->index == 0) ? '' : ',') . $value }}
+                                                @endforeach
+                                            @endif
                                         </p>
                                     </div>
                                 </div>
