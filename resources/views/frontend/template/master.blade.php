@@ -1176,7 +1176,7 @@
                                 <div class="footer-item"><a routerlink="/" routerlinkactive="active" href="/"
                                                             class="active"><img src="assets/images/logo.svg" alt="SWIO"
                                                                                 class="logo"></a>
-                                    <p>KimLongTravel -Trang bán vé xe khách trực tuyến hàng đầu tại Việt Nam.</p>
+                                    <p>GOLDMUTRAVEL -Trang bán vé xe khách trực tuyến hàng đầu tại Việt Nam.</p>
                                     <div class="social"><h5>Kết nối với chúng tôi</h5>
                                         <ul>
                                             <li><a href="https://www.facebook.com/SWIOvn-108203591455951/"

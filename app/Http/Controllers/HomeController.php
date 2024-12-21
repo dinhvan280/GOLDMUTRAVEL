@@ -60,24 +60,28 @@ class HomeController extends Controller
 
     public function search(Request $request)
     {
-        $diemDi = $request->departure;
-        $diemDen = $request->destination;
-        $time = $request->datetime;
-        $result = DB::table('diem_do')
-            ->join('tuyen_diemdo', 'tuyen_diemdo.ma_dd', '=', 'diem_do.id')
-            ->where('diem_do.ten_dd', $diemDi)
-            ->where('diem_do.ten_dd', $diemDi)
-            ->distinct()
-            ->first();
+        try {
+            $diemDi = $request->departure;
+            $diemDen = $request->destination;
+            $time = $request->datetime;
+            if(empty($time)) {
+                $time = Carbon::now('Asia/Ho_Chi_Minh');
+            }
+            $result = DB::table('diem_do')
+                ->join('tuyen_diemdo', 'tuyen_diemdo.ma_dd', '=', 'diem_do.id')
+                ->where('diem_do.ten_dd', $diemDi)
+                ->where('diem_do.ten_dd', $diemDi)
+                ->distinct()
+                ->first();
 
-        $trips = Tuyen::select('chuyen.*',
-            'tuyen.*',
-            'tmp.*',
-            'tuyen_diemdo.*',
-            'diem_do.*',
-            'xe.ten_xe', 'loai_xe.ten_lx', 'loai_xe.gia_ve')
-            ->join('chuyen', 'tuyen.id', '=', 'chuyen.ma_tuyen')
-            ->join(DB::raw('
+            $trips = Tuyen::select('chuyen.*',
+                'tuyen.*',
+                'tmp.*',
+                'tuyen_diemdo.*',
+                'diem_do.*',
+                'xe.ten_xe', 'loai_xe.ten_lx', 'loai_xe.gia_ve')
+                ->join('chuyen', 'tuyen.id', '=', 'chuyen.ma_tuyen')
+                ->join(DB::raw('
             (
                 SELECT
                     ve_chuyen.ma_cn,
@@ -90,30 +94,34 @@ class HomeController extends Controller
                 INNER JOIN `ve_chuyen` ON `ve_chuyen`.`ma_cn` = `chuyen_ngay`.`id`
                 WHERE
                     ve_chuyen.trang_thai IS NULL
-                AND chuyen_ngay.ngay = "' . Carbon::createFromFormat('d/m/Y', $request->datetime)->format('Y-m-d') . '"
+                AND chuyen_ngay.ngay = "' . Carbon::createFromFormat('d/m/Y', $time)->format('Y-m-d') . '"
                 GROUP BY
                     ve_chuyen.ma_cn
             ) AS tmp'), 'chuyen.id', 'tmp.ma_chuyen')
-            ->join('tuyen_diemdo', 'tuyen.id', '=', 'tuyen_diemdo.ma_tuyen')
-            ->join('diem_do', 'diem_do.id', '=', 'tuyen_diemdo.ma_dd')
-            ->join('xe', 'xe.id', '=', 'tmp.ma_xe')
-            ->join('loai_xe', 'loai_xe.id', '=', 'xe.ma_lx')
-            ->where('tuyen.id', '=', $result->ma_tuyen)
+                ->join('tuyen_diemdo', 'tuyen.id', '=', 'tuyen_diemdo.ma_tuyen')
+                ->join('diem_do', 'diem_do.id', '=', 'tuyen_diemdo.ma_dd')
+                ->join('xe', 'xe.id', '=', 'tmp.ma_xe')
+                ->join('loai_xe', 'loai_xe.id', '=', 'xe.ma_lx')
+                ->where('tuyen.id', '=', $result->ma_tuyen)
 //            ->where('xe.id', $ma_xe)
-            ->where('tmp.ngay', Carbon::createFromFormat('d/m/Y', $request->datetime)->format('Y-m-d'))
-            ->groupBy('tuyen.id', 'chuyen.id')
-            ->get();
+                ->where('tmp.ngay', Carbon::createFromFormat('d/m/Y', $time)->format('Y-m-d'))
+                ->groupBy('tuyen.id', 'chuyen.id')
+                ->get();
 
 
-        $tuyen = DB::table('tuyen')
-            ->join('chuyen', 'chuyen.ma_tuyen', '=', 'tuyen.id')
-            ->join('chuyen_ngay', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
-            ->join('xe', 'xe.id', '=', 'chuyen_ngay.ma_xe')
-            ->where('tuyen.id', $result->ma_tuyen)
-            ->first();
-        $image = HinhAnh::where('xe_id', $tuyen->ma_xe)->first();
+            $tuyen = DB::table('tuyen')
+                ->join('chuyen', 'chuyen.ma_tuyen', '=', 'tuyen.id')
+                ->join('chuyen_ngay', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
+                ->join('xe', 'xe.id', '=', 'chuyen_ngay.ma_xe')
+                ->where('tuyen.id', $result->ma_tuyen)
+                ->first();
+            $image = HinhAnh::where('xe_id', $tuyen->ma_xe)->first();
 
-        return view('frontend.ticket.index', compact('trips', 'tuyen', 'time', 'image'));
+            return view('frontend.ticket.index', compact('trips', 'tuyen', 'time', 'image'));
+        } catch (\Exception $e) {
+            return redirect()->back()->with('error', $e->getMessage());
+        }
+
     }
 
     public function question()

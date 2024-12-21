@@ -76,10 +76,11 @@
                                                             </tbody>
                                                         </table>
                                                         <table style="border-spacing:0;margin-top:20px" width="100%">
+                                                        <table style="border-spacing:0;margin-top:20px" width="100%">
                                                             <tbody>
                                                             <tr>
                                                                 <td>
-                                                                    <p>KimLongTravel thân chào Quý Khách <span
+                                                                    <p>GOLDMUTravel thân chào Quý Khách <span
                                                                             style="font-weight:bold;color:#f48313">{{@$data->name}}</span>,
                                                                     </p>
                                                                     <p>Để lấy lại mật khẩu quý khách cần sao chép đoạn ký tự chúng tôi gửi bên dưới và thay đổi lại mật khẩu mới. Xin cảm ơn
@@ -178,7 +179,7 @@
                                                                         hỗ trợ?</p>
                                                                     <p>Email: <a
                                                                             style="font-weight:bold;color:#f48313;font-size:16px;text-decoration:none"
-                                                                            href="mailto:kimlongtravel102@gmail.com" target="_blank">kimlongtravel102@gmail.com</a>
+                                                                            href="mailto:GOLDMUtravel102@gmail.com" target="_blank">GOLDMUtravel102@gmail.com</a>
                                                                         | Tổng đài: <a style="text-decoration:none"
                                                                                        href="tel:1900636750"
                                                                                        target="_blank"><span
@@ -191,10 +192,10 @@
                                                             <tr>
                                                                 <td>
                                                                     <p style="font-weight:200;opacity:0.8;font-size:14px">
-                                                                        KimLongTravel - Trang đặt vé xe khách trực tuyến hàng đầu
+                                                                        GOLDMUTravel - Trang đặt vé xe khách trực tuyến hàng đầu
                                                                         Việt Nam</p>
                                                                     <p style="font-weight:200;opacity:0.8;font-size:14px">
-                                                                        Cảm ơn quý khách hàng đã luôn đồng hành cùng KimLongTravel.</p>
+                                                                        Cảm ơn quý khách hàng đã luôn đồng hành cùng GOLDMUTravel.</p>
 
                                                                 </td>
                                                             </tr>

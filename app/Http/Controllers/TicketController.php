@@ -231,24 +231,33 @@ class TicketController extends Controller
 
     public function search(Request $request)
     {
-        $diemDi = $request->diemDi;
-        $diemDen = $request->diemDen;
-        $time = $request->day;
-//        dd($request->all());
-        $result = DB::table('diem_do')
-            ->join('tuyen_diemdo', 'tuyen_diemdo.ma_dd', '=', 'diem_do.id')
-            ->where('diem_do.ten_dd', 'like', '%' . $diemDi . '%')
-            ->distinct()
-            ->first();
+        try {
+            $diemDi = $request->diem_di;
+            $diemDen = $request->diem_den;
+            $time = $request->day;
 
-        $trips = Tuyen::select('chuyen.*',
-            'tuyen.*',
-            'tmp.*',
-            'tuyen_diemdo.*',
-            'diem_do.*',
-            'xe.ten_xe', 'loai_xe.ten_lx', 'loai_xe.gia_ve')
-            ->join('chuyen', 'tuyen.id', '=', 'chuyen.ma_tuyen')
-            ->join(DB::raw('
+            if (empty($time)) {
+                $time = now()->format('Y-m-d');
+            }
+
+            // Check if both diemDi and diemDen are empty
+            if (empty($diemDi) && empty($diemDen)) {
+                return redirect()->back()->with('error', 'Please provide both departure and destination.');
+            } else {
+                $result = DB::table('diem_do')
+                    ->join('tuyen_diemdo', 'tuyen_diemdo.ma_dd', '=', 'diem_do.id')
+                    ->where('diem_do.ten_dd', 'like', '%' . $diemDi . '%')
+                    ->distinct()
+                    ->first();
+
+                $trips = Tuyen::select('chuyen.*',
+                    'tuyen.*',
+                    'tmp.*',
+                    'tuyen_diemdo.*',
+                    'diem_do.*',
+                    'xe.ten_xe', 'loai_xe.ten_lx', 'loai_xe.gia_ve')
+                    ->join('chuyen', 'tuyen.id', '=', 'chuyen.ma_tuyen')
+                    ->join(DB::raw('
             (
                 SELECT
                     ve_chuyen.ma_cn,
@@ -265,25 +274,29 @@ class TicketController extends Controller
                 GROUP BY
                     ve_chuyen.ma_cn
             ) AS tmp'), 'chuyen.id', 'tmp.ma_chuyen')
-            ->join('tuyen_diemdo', 'tuyen.id', '=', 'tuyen_diemdo.ma_tuyen')
-            ->join('diem_do', 'diem_do.id', '=', 'tuyen_diemdo.ma_dd')
-            ->join('xe', 'xe.id', '=', 'tmp.ma_xe')
-            ->join('loai_xe', 'loai_xe.id', '=', 'xe.ma_lx')
-            ->where('tuyen.id', '=', $result->ma_tuyen)
-            ->where('tmp.ngay', Carbon::createFromFormat('d/m/Y', $request->day)->format('Y-m-d'))
-            ->groupBy('tuyen.id', 'chuyen.id')
-            ->get();
+                    ->join('tuyen_diemdo', 'tuyen.id', '=', 'tuyen_diemdo.ma_tuyen')
+                    ->join('diem_do', 'diem_do.id', '=', 'tuyen_diemdo.ma_dd')
+                    ->join('xe', 'xe.id', '=', 'tmp.ma_xe')
+                    ->join('loai_xe', 'loai_xe.id', '=', 'xe.ma_lx')
+                    ->where('tuyen.id', '=', $result->ma_tuyen)
+                    ->where('tmp.ngay', Carbon::createFromFormat('d/m/Y', $request->day)->format('Y-m-d'))
+                    ->groupBy('tuyen.id', 'chuyen.id')
+                    ->get();
 
-        $tuyen = DB::table('tuyen')
-            ->join('chuyen', 'chuyen.ma_tuyen', '=', 'tuyen.id')
-            ->join('chuyen_ngay', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
-            ->where('tuyen.id', $result->ma_tuyen)
-            ->first();
+                $tuyen = DB::table('tuyen')
+                    ->join('chuyen', 'chuyen.ma_tuyen', '=', 'tuyen.id')
+                    ->join('chuyen_ngay', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')
+                    ->where('tuyen.id', $result->ma_tuyen)
+                    ->first();
 
-        $image = HinhAnh::where('xe_id', $tuyen->ma_xe)->first();
-        $images = HinhAnh::where('xe_id', $tuyen->ma_xe)->get();
+                $image = HinhAnh::where('xe_id', $tuyen->ma_xe)->first();
+                $images = HinhAnh::where('xe_id', $tuyen->ma_xe)->get();
+            }
 
-        return view('frontend.ticket.show', compact('trips', 'tuyen', 'time', 'image', 'images'));
+            return view('frontend.ticket.show', compact('trips', 'tuyen', 'time', 'image', 'images'));
+        } catch (\Exception $e) {
+            return redirect()->back()->with('error', 'An error occurred: ' . $e->getMessage());
+        }
     }
 
     public function filterTime(Request $request)
@@ -311,7 +324,7 @@ class TicketController extends Controller
     }
 
     public function filterPrice(Request $request)
-    {
+    {dd(Carbon::createFromFormat('d/m/Y', $request->day)->format('Y-m-d'));
         $id = $request->id;
         $type = $request->type;
         $time = $request->day;
@@ -325,6 +338,7 @@ class TicketController extends Controller
             ->where('chuyen_ngay.ngay', Carbon::createFromFormat('d/m/Y', $request->day)->format('Y-m-d'))
             ->orderBy('loai_xe.gia_ve', "$type")
             ->get();
+        dd($trips);
         $tuyen = DB::table('tuyen')
             ->join('chuyen', 'chuyen.ma_tuyen', '=', 'tuyen.id')
             ->join('chuyen_ngay', 'chuyen.id', '=', 'chuyen_ngay.ma_chuyen')

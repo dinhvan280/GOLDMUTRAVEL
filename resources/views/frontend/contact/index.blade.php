@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row offset-md-0 offset-lg-1 title-contact">
                 <div class="col-12"><h4>Gửi thông tin liên hệ</h4>
-                    <p>KIMLONG sẵn sàng lắng nghe câu hỏi và ý kiến đóng góp của Quý khách</p></div>
+                    <p>GOLDMU sẵn sàng lắng nghe câu hỏi và ý kiến đóng góp của Quý khách</p></div>
             </div>
             <form novalidate="" spellcheck="false" class="ng-untouched ng-pristine ng-invalid">
                 <div class="row flex-column-reverse flex-lg-row offset-md-0 offset-lg-1">

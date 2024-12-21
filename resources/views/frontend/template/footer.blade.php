@@ -7,7 +7,7 @@
                     <div class="footer-item"><a routerlink="/" routerlinkactive="active" href="/"
                                                 class="active"><img src="{{asset('images/image/logo.png')}}" alt="SWIO"
                                                                     class="logo"></a>
-                        <p>KIMLONG - Trang bán vé xe khách trực tuyến hàng đầu tại Việt Nam.</p>
+                        <p>GOLDMU - Trang bán vé xe khách trực tuyến hàng đầu tại Việt Nam.</p>
                         <div class="social"><h5>Kết nối với chúng tôi</h5>
                             <ul>
                                 <li><a href="#"
@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-3">
-                    <div class="footer-item support"><h4>Về KIMLONG</h4>
+                    <div class="footer-item support"><h4>Về GOLDMU</h4>
                         <ul>
                             <li><a routerlinkactive="active" href="{{url('gioi-thieu')}}">Giới thiệu</a>
                             </li>
@@ -98,7 +98,7 @@
         </div>
     </div>
     <div class="footer-copyright">
-        <div class="container"><p>© 2022 Phát triển và xây dựng bởi <a href="javascript:;">KimLong</a></p>
+        <div class="container"><p>© 2022 Phát triển và xây dựng bởi <a href="javascript:;">GOLDMU</a></p>
         </div>
 </footer>
 <button type="button" class="scroll-up-btn"><i aria-hidden="true" class="fa fa-level-up"></i></button>

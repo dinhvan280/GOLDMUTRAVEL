@@ -16,9 +16,9 @@
                 </div>
                 <div class="col-12 col-lg-9">
                     <div class="support-page-content history wysiwyg"><h1 style="text-align: justify;">Giới thiệu về
-                            KimLongTravel</h1>
+                            GOLDMUTravel</h1>
                         <h2 style="text-align: justify;">Chúng tôi là ai&nbsp;</h2>
-                        <p style="text-align: justify;">Được thành lập từ tháng 3/2021, KimLongTravel là một trong những trang
+                        <p style="text-align: justify;">Được thành lập từ tháng 3/2021, GOLDMUTravel là một trong những trang
                             mua sắm trực tuyến hàng đầu trong lĩnh vực cung cấp dịch vụ mua vé xe khách liên thành phố
                             trực tuyến tại Việt Nam. Sứ mệnh của chúng tôi là cung cấp giải pháp công nghệ, giúp kết nối
                             hàng triệu khách hàng với các nhà xe, từ đó góp phần giải quyết bài toán vé của nhà xe, và
@@ -33,10 +33,10 @@
                         <p style="text-align: justify;">Quý khách có nhu cầu liên lạc, trao đổi hoặc đóng góp ý kiến,
                             vui lòng tham khảo các thông tin sau:&nbsp;</p>
                         <p style="text-align: justify;"><strong>Liên lạc qua điện thoại:</strong> 1900
-                            20 53&nbsp;<br><strong>Liên lạc qua email: </strong>kimlongtravel102@gmail.com&nbsp;<br><strong>Văn
+                            20 53&nbsp;<br><strong>Liên lạc qua email: </strong>GOLDMUtravel102@gmail.com&nbsp;<br><strong>Văn
                                 phòng:</strong> Xóm 9 - Hải Vân - Hải Hậu - Nam Định</p>
                         <h2 style="text-align: justify;">Thông tin về công ty&nbsp;</h2>
-                        <p style="text-align: justify;">Công ty TNHH Dịch Vụ Thương Mại Kim Long</p>
+                        <p style="text-align: justify;">Công ty TNHH Dịch Vụ Thương Mại GOLDMU</p>
                         <h2 style="text-align: justify;">Mã ngành, nghề kinh doanh</h2>
                         <p style="text-align: justify;">5229 (Chính) - Hoạt động dịch vụ hỗ trợ khác liên quan đến vận
                             tải</p>

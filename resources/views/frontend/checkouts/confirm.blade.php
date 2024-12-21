@@ -59,7 +59,7 @@
                                                                 data-target="#policyModal">Chính sách bảo mật thông tin
                                         cá nhân</a> và <a href="javascript:;" data-toggle="modal"
                                                           data-target="#policyModal">Điều khoản sử dụng</a> của
-                                    KIMLONGTRAVEL.
+                                    GOLDMUTRAVEL.
                                 </p></div>
                         </div>
                         <button type="submit" class="btn-payment" id="btn_confirm">Đặt vé</button>

@@ -1,5 +1,5 @@
 @extends('backend.layout.master')
-@section('title', 'Kim Long | Dashboard')
+@section('title', 'GOLDMU | Dashboard')
 
 @section('content')
     <!-- page content -->

@@ -189,7 +189,7 @@ class CheckoutController extends Controller
             ->where('ve_chuyen.ma_dh', $donHang->id)
             ->first();
 
-        Mail::to('kimlongtravel102@gmail.com')->send(new ConFirm($infoTicket));
+        Mail::to('dinhsau2k@gmail.com')->send(new ConFirm($infoTicket));
 
 
         return view('frontend.checkouts.success', compact( 'veDat'));

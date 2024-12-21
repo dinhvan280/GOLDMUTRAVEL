@@ -4,15 +4,14 @@
     <div class="slider-side">
         <div class="bg-video pyro">
             <div class="overlap">
-                <div class="search-group"><p>KIMLONG - Cam kết hoàn 150% nếu nhà xe không giữ vé !</p>
+                <div class="search-group"><p>GOLDMU - Cam kết hoàn 150% nếu nhà xe không giữ vé !</p>
                     <div class="search-feature">
                         <div class="container">
                             <div class="trip-search-filter">
                                 <div class="search-form">
                                     <form novalidate="" action="{{route('trips.search')}}"
                                           autocomplete="false"
-                                          enctype="multipart/form-data" method="post" class="row ng-untouched ng-pristine ng-valid">
-                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                          enctype="multipart/form-data" method="GET" class="row ng-untouched ng-pristine ng-valid">
                                         <div class="col-12 col-lg-8 mt-4">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6 search-form-item"><label>Nơi đi</label>
@@ -203,7 +202,7 @@
                 <div class="col-12 col-lg-4 mb-3">
                     <div class="why-swio-item"><img src="/assets/images/why2.svg" alt="Giữ chỗ 100%">
                         <div class="content"><h5>Giữ chỗ 100%</h5>
-                            <p class="des">Cam kết giữ chỗ 100% khi đặt vé tại kimlong.info</p></div>
+                            <p class="des">Cam kết giữ chỗ 100% khi đặt vé tại goldmu.info</p></div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 mb-3">
@@ -218,7 +217,7 @@
                     <div class="col-12 col-lg-10 d-flex align-items-center">
                         <img src="/assets/images/stop-bus.svg" title="" alt="icon-sale-off" width="30px">
                         <span>Đăng ký thành viên để nhận được nhiều ưu đãi hơn từ
-                            <strong class="name">KIMLONG</strong>.</span></div>
+                            <strong class="name">GOLDMU</strong>.</span></div>
                     <div class="col-12 col-lg-2 text-right">
                         <button data-target="#memberModal" id="register" data-toggle="modal" type="button"
                                 class="btn btn-sm uppercase btn-outline-theme rounded-pill btn-ani1">Đăng ký ngay
@@ -232,7 +231,7 @@
             <div class="call-to-action-detail">
                 <div class="info"><img src="/assets/images/icon-bus.svg" title="" alt="">
                     <div class="call-to-action-title"><h4>Tìm vé ngay hôm nay!</h4>
-                        <p>Mua vé ngay hôm nay để nhận được nhiều ưu đãi hấp dẫn từ KIMLONG!</p></div>
+                        <p>Mua vé ngay hôm nay để nhận được nhiều ưu đãi hấp dẫn từ GOLDMU!</p></div>
                 </div>
                 <a href="javascript:;" class="link-cta btn btn-booking btn-theme btn-ani2 uppercase rounded-pill">Tìm
                     Vé Ngay!</a></div>
@@ -243,7 +242,7 @@
             <div class="row">
                 <div class="col">
                     <div class="title"><h2>Hỗ trợ khách hàng</h2>
-                        <p>Giải đáp thắc mắc của khách hàng về quá trình đặt vé và vô vàn các tiện ích khác mà KIMLONG
+                        <p>Giải đáp thắc mắc của khách hàng về quá trình đặt vé và vô vàn các tiện ích khác mà GOLDMU
                             mang lại</p></div>
                 </div>
             </div>
@@ -251,7 +250,7 @@
                 <div class="col-12 col-lg-4">
                     <div class="policy-item"><img src="/assets/images/support-use.svg" alt="Icon support-use">
                         <h2>Điều khoản sử dụng</h2>
-                        <p>Tìm hiểu các quy định và chính sách của KimLongTravel</p><a routerlinkactive="active"
+                        <p>Tìm hiểu các quy định và chính sách của GOLDMUTRAVEL</p><a routerlinkactive="active"
                                                                               class="link-more w-200 btn-ani1"
                                                                               href="{{route('term')}}">Xem
                             chi tiết</a></div>

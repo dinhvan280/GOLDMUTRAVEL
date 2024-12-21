@@ -54,7 +54,7 @@
                                                                                    target="_blank"
                                                                                    data-saferedirecturl="https://www.google.com/url?q=http://x9nv6.mjt.lu/lnk/CAAAAungbnkAAAAAAAAAABhCSBYAAAAAmIQAAAAAABihdgBildCZji_5zkKPRpu32w7Z8157LgAYB9c/1/jEEoxw2hqqLkmmTrAiLKvQ/aHR0cHM6Ly9zd2lvLnZuLw&amp;source=gmail&amp;ust=1654267042677000&amp;usg=AOvVaw0-FVa7QayajvgyWhEYFZaJ">
                                                                                     <img
-                                                                                        src="https://ik.imagekit.io/7ptdevjl9zu/Kim_Long_Travel/logo_BpyEK516R.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654704283366"
+                                                                                        src="https://ik.imagekit.io/cpo7llgjn/DoAn/goldmu.png?updatedAt=1734626401704"
                                                                                         alt="" height="45px"
                                                                                         class="CToWUd"> </a></td>
                                                                         </tr>
@@ -79,16 +79,16 @@
                                                             <tbody>
                                                             <tr>
                                                                 <td>
-                                                                    <p>KimLongTravel thân chào Quý Khách <span
+                                                                    <p>GOLDMUTRAVEL thân chào Quý Khách <span
                                                                             style="font-weight:bold;color:#f48313">{{$customer->name}}</span>,
                                                                     </p>
                                                                     <p>Vé của Quý khách đã được đặt thành công. Email
                                                                         này được gửi đến để hoàn tất quy trình đặt vé
-                                                                        của quý khách tại <span style="color:#f48313">KimLongTravel</span>
+                                                                        của quý khách tại <span style="color:#f48313">GOLDMUTRAVEL</span>
                                                                     </p>
                                                                     <p style="font-size:16px">Lưu ý: Thông tin email này
                                                                         có giá trị là vé xe mà quý khách đã đặt tại
-                                                                        KimLongTravel. Quý khách vui lòng kiểm tra lại
+                                                                        GOLDMUTRAVEL. Quý khách vui lòng kiểm tra lại
                                                                         thông tin vé trước giờ lên xe 15 phút. Xin cảm
                                                                         ơn!</p>
                                                                 </td>
@@ -184,7 +184,7 @@
                                                                         hỗ trợ?</p>
                                                                     <p>Email: <a
                                                                             style="font-weight:bold;color:#f48313;font-size:16px;text-decoration:none"
-                                                                            href="mailto:kimlongtravel102@gmail.com" target="_blank">kimlongtravel102@gmail.com</a>
+                                                                            href="mailto:GOLDMUTRAVEL102@gmail.com" target="_blank">GOLDMUTRAVEL102@gmail.com</a>
                                                                         | Tổng đài: <a style="text-decoration:none"
                                                                                        href="tel:1900636750"
                                                                                        target="_blank"><span
@@ -197,10 +197,10 @@
                                                             <tr>
                                                                 <td>
                                                                     <p style="font-weight:200;opacity:0.8;font-size:14px">
-                                                                        KimLongTravel - Trang đặt vé xe khách trực tuyến hàng đầu
+                                                                        GOLDMUTRAVEL - Trang đặt vé xe khách trực tuyến hàng đầu
                                                                         Việt Nam</p>
                                                                     <p style="font-weight:200;opacity:0.8;font-size:14px">
-                                                                        Cảm ơn quý khách hàng đã luôn đồng hành cùng KimLongTravel.</p>
+                                                                        Cảm ơn quý khách hàng đã luôn đồng hành cùng GOLDMUTRAVEL.</p>
 
                                                                 </td>
                                                             </tr>

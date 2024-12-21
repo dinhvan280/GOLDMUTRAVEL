@@ -7,8 +7,9 @@
             <div class="container">
                 <div class="trip-search-filter">
                     <div class="search-form">
-                        <form novalidate="" action="{{route('trips.find')}}" enctype="multipart/form-data" method="get"
+                        <form novalidate="" action="{{route('trips.find')}}" enctype="multipart/form-data" method="post"
                               class="row ng-untouched ng-pristine ng-valid">
+                            @csrf
 {{--                            <input type="hidden" name="_token" value="{{ csrf_token() }}">--}}
                             <div class="col-12 col-lg-8 mt-4">
                                 <div class="row">
@@ -70,7 +71,7 @@
                                                  aria-hidden="true" tabindex="-1" style="width: 344px;"><a
                                                     href="#"
                                                     target="_blank" class="image" tabindex="-1"><img
-                                                        src="https://blog.KIMLONGTRAVEL.vn/wp-content/uploads/2021/09/deo-khau-pha-mu-cang-chai-min-525x375.jpg"
+                                                        src="https://blog.GOLDMUTRAVEL.vn/wp-content/uploads/2021/09/deo-khau-pha-mu-cang-chai-min-525x375.jpg"
                                                         class="img-fluid">
                                                     <p class="title">Các địa điểm nên đến ở Mù Cang Chải</p>
                                                 </a></div>
@@ -131,6 +132,9 @@
                     <div class="search-sort-block"><p><span>{{count($trips)}} chuyến xe</span></p>
                         <p>@if(!empty($tuyen))<span>{{$tuyen->ten_chuyen}} @if(empty($time))
                                     [{{ now()->format('d-m-Y') }}] @else [{{$time}}] @endif</span>@endif</p></div>
+                    @php if(empty($time)) {
+     $time = now();
+ } @endphp
                     <div class="search-sort-text">
                         <ul class="sort-text">
                             <li><a href="#" data-id="{{$tuyen->id}}" data-time="{{$time}}" data-type="asc"
@@ -174,7 +178,7 @@
         @foreach($trips as $items => $item)
             <div class="row ticket-item">
                 <div class="ticket-item-img">
-                    <img src="{{asset($image->anh)}}"
+                    <img src="{{asset(@$image->anh)}}"
                          alt="Thế Anh">
                 </div>
                 <div class="ticket-item-info">
@@ -289,8 +293,8 @@
                         <div class="ticket-service-info scrollbar">
                             <div class="ticket-service-info-item"><h4>An toàn mùa Covid-19</h4>
                                 <p>Là chương trình bảo vệ an toàn cho hành khách sử dụng dịch vụ của
-                                    KIMLONGTRAVEL
-                                    trong mùa dịch Covid. KIMLONGTRAVEL đồng hành cùng các nhà xe đối tác
+                                    GOLDMUTRAVEL
+                                    trong mùa dịch Covid. GOLDMUTRAVEL đồng hành cùng các nhà xe đối tác
                                     triển khai biện
                                     pháp bảo vệ an toàn cho hành khách, như sau:<br>(1) Kiểm tra thân nhiệt
                                     hành khách trước khi lên xe;<br>(2) Trang bị nước rửa tay;<br>(3) Có đảm

@@ -54,7 +54,7 @@
                                                                                    target="_blank"
                                                                                    data-saferedirecturl="https://www.google.com/url?q=http://x9nv6.mjt.lu/lnk/CAAAAungbnkAAAAAAAAAABhCSBYAAAAAmIQAAAAAABihdgBildCZji_5zkKPRpu32w7Z8157LgAYB9c/1/jEEoxw2hqqLkmmTrAiLKvQ/aHR0cHM6Ly9zd2lvLnZuLw&amp;source=gmail&amp;ust=1654267042677000&amp;usg=AOvVaw0-FVa7QayajvgyWhEYFZaJ">
                                                                                     <img
-                                                                                        src="https://ik.imagekit.io/7ptdevjl9zu/Kim_Long_Travel/logo_BpyEK516R.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654704283366"
+                                                                                        src="https://ik.imagekit.io/cpo7llgjn/DoAn/goldmu.png?updatedAt=1734626401704"
                                                                                         alt="" height="45px"
                                                                                         class="CToWUd"> </a></td>
                                                                         </tr>
@@ -79,7 +79,7 @@
                                                             <tbody>
                                                             <tr>
                                                                 <td>
-                                                                    <p>KimLongTravel thông báo có vé cần duyệt ở chuyến
+                                                                    <p>GOLDMUTRAVEL thông báo có vé cần duyệt ở chuyến
                                                                         <span style="font-weight:bold;color:#f48313">{{$data->ten_chuyen}} Ngày {{date('d-m-Y', strtotime($data->ngay))}} Thời gian {{date('G:i', strtotime($data->gio))}}</span>,
                                                                     </p>
                                                                     <a style="color: #ff7d00; font-weight: bold" href="{{route('tickets.list', ['ma_cn' => $data->ma_cn])}}">Duyệt vé ngay</a>

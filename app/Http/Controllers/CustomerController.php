@@ -72,7 +72,8 @@ class CustomerController extends Controller
             'email' => $request->email,
             'address' => $request->address,
             'password' => $request->password,
-            'phone' => $request->phone
+            'phone' => $request->phone,
+            'type' => 'khachhang'
         ];
         $check = TaiKhoan::where('email', $request->email)->first();
 

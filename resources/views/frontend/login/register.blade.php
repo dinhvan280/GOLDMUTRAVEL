@@ -41,7 +41,7 @@
                 <a target="_blank" href="#">Chính sách bảo mật thông
                     tin cá nhân</a> và
                 <a target="_blank" href="#">Điều khoản sử dụng</a> trên nền tảng
-                KIMLONGTRAVEL</label>
+                GOLDMUTRAVEL</label>
         </div></div>
     <div class="modal-footer">
         <button type="submit" class="btn btn-confirm">Đăng ký</button>

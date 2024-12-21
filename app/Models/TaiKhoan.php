@@ -19,7 +19,8 @@ class TaiKhoan extends Authenticatable
         'email',
         'password',
         'address',
-        'phone'
+        'phone',
+        'type'
     ];
 
 

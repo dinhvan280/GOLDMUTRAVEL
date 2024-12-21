@@ -49,7 +49,7 @@
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view">
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="{{url('/dashboard')}}" class="site_title"><i class="fa fa-paw"></i> <span>Kim Long!</span></a>
+                    <a href="{{url('/dashboard')}}" class="site_title"><i class="fa fa-paw"></i> <span>Admin!</span></a>
                 </div>
 
                 <div class="clearfix"></div>
@@ -306,7 +306,7 @@
 
         <footer>
             <div class="pull-right">
-                Kim Long - Admin Dashboard
+                GoldMu Travel - Admin Dashboard
             </div>
             <div class="clearfix"></div>
         </footer>
@@ -544,7 +544,7 @@
 
         <footer>
             <div class="pull-right">
-                Kim Long - Admin Dashboard
+                GOLDMU - Admin Dashboard
             </div>
             <div class="clearfix"></div>
         </footer>

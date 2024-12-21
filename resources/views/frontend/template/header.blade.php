@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="{{asset('assets/scss/styles.css')}}">
     <link rel="stylesheet" href="{{asset('libs/jquery-datetimepicker/jquery.datetimepicker.min.css')}}">
 
-    <title>KimLong -Trang bán vé xe khách trực tuyến hàng đầu tại Việt Nam</title>
-    <meta name="title" content="KimLongTravel -Trang bán vé xe khách trực tuyến hàng đầu tại Việt Nam"/>
+    <title>GOLDMU -Trang bán vé xe khách trực tuyến hàng đầu tại Việt Nam</title>
+    <meta name="title" content="GOLDMUTravel -Trang bán vé xe khách trực tuyến hàng đầu tại Việt Nam"/>
     <meta name="description"
           content="Dễ dàng đặt vé xe khách, xe limousine nhanh chóng, tiết kiệm. Vô vàn ưu đãi, mã giảm giá và có cam kết hoàn tiền đến 150%"/>
 
@@ -46,7 +46,7 @@
                 <div class="toggle" id="menu-toggle"><span></span></div>
                 <h1 id="logo">
                     <a routerlink="/" routerlinkactive="active" href="/" class="active">
-                        <img src="{{asset('images/image/logo.png')}}" alt="KIMLONGTRAVEL">
+                        <img src="{{asset('images/image/logo.png')}}" alt="GOLDMUTRAVEL">
                     </a>
                 </h1>
                 <ul class="nav menu-main">
@@ -87,8 +87,8 @@
                             <div class="account-mobile">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-12 account-item account-header"><p>Xin chào!</p><h5> Kim
-                                                Long</h5></div>
+                                        <div class="col-12 account-item account-header"><p>Xin chào!</p><h5> GOLDMU
+                                                </h5></div>
                                     </div>
                                     <div class="row">
                                         <div class="col-12 account-item wallet">
@@ -350,7 +350,7 @@
                                     <input type="tel" inputmode="numeric" pattern="[0-9]{10,11}" digitonly="" formcontrolname="bookingPhoneNumber" required="" class="txt-input ng-untouched ng-pristine ng-invalid"placeholder="Nhập số điện thoại">
                                 </div>
                                 <p class="notes">Trường hợp không thể huỷ vé qua mạng hoặc muốn đổi sang vé khác vui
-                                    lòng liên hệ <a href="/">KIMLONGTRAVEL</a> qua số điện thoại <a
+                                    lòng liên hệ <a href="/">GOLDMUTRAVEL</a> qua số điện thoại <a
                                         href="tel:1900 636 750">1900
                                         636 750</a></p></div>
                             <div class="modal-footer">

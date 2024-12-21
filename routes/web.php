@@ -16,7 +16,7 @@ Route::get('chinh-sach-bao-mat-thong-tin', 'HomeController@privacy')->name('priv
 
 Route::get('loc-diem-don', 'HomeController@filter')->name('filter');
 
-Route::post('tim-chuyen', 'HomeController@search')->name('trips.search');
+Route::get('tim-chuyen', 'HomeController@search')->name('trips.search');
 
 Route::get('gioi-thieu', 'IntroController@index')->name('introduce');
 

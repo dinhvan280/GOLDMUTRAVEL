@@ -19,13 +19,13 @@
                             style="text-align: justify; color: #ff7d00; margin: 0 0 15px 0;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 1. SỰ CHẤP THUẬN&nbsp;</span></strong></h2>
                         <p style="text-align: justify;">Sau khi khách hàng đồng ý, thông tin của khách hàng sẽ được thu
-                            thập bởi CÔNG TY TNHH DỊCH VỤ THƯƠNG MẠI KIM LONG (“Chúng tôi”, “KIMLONG”), và được sử dụng như quy định tại Chính
+                            thập bởi CÔNG TY TNHH DỊCH VỤ THƯƠNG MẠI GOLDMU (“Chúng tôi”, “GOLDMU”), và được sử dụng như quy định tại Chính
                             sách Bảo mật thông tin cá nhân của người tiêu dùng (“Chính sách này”). Tuy nhiên, khi khách
                             hàng không đồng ý, khách hàng có thể dừng sử dụng dịch vụ và dừng việc cung cấp thông tin
                             bất cứ lúc nào.&nbsp;</p>
                         <p style="text-align: justify;">Chúng tôi sẽ bảo lưu quyền sửa đổi, bổ sung nhằm hoàn thiện đối
                             với Chính sách này. Chúng tôi khuyến khích khách hàng thường xuyên xem lại Chính sách Bảo
-                            mật thông tin cá nhân trên KIMLONGTRAVEL.COM. &nbsp;</p>
+                            mật thông tin cá nhân trên GOLDMUTRAVEL.COM. &nbsp;</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin: 15px 0 15px 0;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 2. MỤC ĐÍCH THU THẬP THÔNG TIN&nbsp;</span></strong>
                         </h2>
@@ -33,7 +33,7 @@
                         </h3>
                         <p style="text-align: justify;">Chúng tôi có thể thu thập và xử lý "Thông tin IP" từ bạn.
                             &nbsp;</p>
-                        <p style="text-align: justify;">Khi bạn đang truy cập vào KIMLONGTRAVEL.COM từ một thiết bị điện tử, chúng
+                        <p style="text-align: justify;">Khi bạn đang truy cập vào GOLDMUTRAVEL.COM từ một thiết bị điện tử, chúng
                             tôi có thể thu thập dữ liệu nhất định liên quan đến việc truy cập mạng, chẳng hạn như địa
                             chỉ IP, loại trình duyệt và hệ điều hành, URL và các trang web bạn truy cập trong miền web
                             của chúng tôi.&nbsp;</p>
@@ -43,12 +43,12 @@
                             trình bày trong các định dạng hiệu quả nhất trên thiết bị điện tử của bạn, dù đó là một máy
                             tính hoặc điện thoại di động.&nbsp;</p>
                         <p style="text-align: justify;">Chúng tôi cũng có thể thu thập dữ liệu về vị trí địa lý từ nơi
-                            bạn truy cập KIMLONGTRAVEL.COM, chẳng hạn như quốc gia và khu vực. Chúng tôi sử dụng dữ liệu này dành
+                            bạn truy cập GOLDMUTRAVEL.COM, chẳng hạn như quốc gia và khu vực. Chúng tôi sử dụng dữ liệu này dành
                             cho mục đích thống kê và để đảm bảo rằng nội dung của trang web này được trình bày bằng ngôn
                             ngữ thích hợp.&nbsp;</p>
                         <h3 style="text-align: justify; margin: 15px 0 15px 0;"><span style="font-size: 12pt;">THÔNG TIN CÁ NHÂN&nbsp;</span>
                         </h3>
-                        <p style="text-align: justify;">- KIMLONGTRAVEL.COM thu thập thông tin khi khách hàng trực tiếp cung cấp
+                        <p style="text-align: justify;">- GOLDMUTRAVEL.COM thu thập thông tin khi khách hàng trực tiếp cung cấp
                             cho chúng tôi &nbsp;</p>
                         <p style="text-align: justify;">+ Khi bạn đăng ký và cập nhật tài khoản, chúng tôi thu thập:
                             <strong>Họ và tên - Địa chỉ thư điện tử (email) - Số điện thoại</strong> với mục đích để tạo
@@ -74,7 +74,7 @@
                         <p style="text-align: justify;">Chúng tôi sử dụng cookie để cải thiện dịch vụ dựa vào thói quen
                             duyệt web của bạn và để điều chỉnh các nội dung của trang web này theo sở thích của bạn.&nbsp;</p>
                         <p style="text-align: justify;">Cookie là một phần của thông tin được gửi bởi máy chủ của chúng
-                            tôi và lưu trữ bởi trình duyệt web của bạn. Mỗi lần bạn truy cập KIMLONGTRAVEL.COM, các thông tin sau
+                            tôi và lưu trữ bởi trình duyệt web của bạn. Mỗi lần bạn truy cập GOLDMUTRAVEL.COM, các thông tin sau
                             đó được gửi lại cho máy chủ của chúng tôi. Điều này cho phép máy chủ của chúng tôi xác định
                             truy cập và thiết lập sở thích của bạn, nhưng cookie không thể liên kết với bất kỳ thông tin
                             cá nhân nào về bạn. Cookies theo phiên sẽ tự động bị xóa khỏi thiết bị điện tử của bạn khi
@@ -119,7 +119,7 @@
                             chúng tôi loại bỏ thông tin của bạn ra khỏi cơ sở dữ liệu của chúng tôi.&nbsp;</p>
                         <p style="text-align: justify;">Khách hàng có thể thực hiện các quyền của bạn bất cứ lúc nào
                             bằng cách liên hệ với chúng tôi, bạn có chỉ cần gửi yêu cầu bằng văn bản theo địa chỉ liên
-                            hệ tại mục Thông tin liên hệ. KIMLONGTRAVEL.COM sẽ tiếp nhận thông tin, xác định danh tính và hỗ trợ
+                            hệ tại mục Thông tin liên hệ. GOLDMUTRAVEL.COM sẽ tiếp nhận thông tin, xác định danh tính và hỗ trợ
                             giải quyết yêu cầu của khách hàng.&nbsp;</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin: 15px 0 15px 0;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 5. THỜI GIAN LƯU TRỮ THÔNG TIN&nbsp;</span></strong>
@@ -127,13 +127,13 @@
                         <p style="text-align: justify;">Tất cả thông tin cá nhân của khách hàng sẽ được lưu trữ cho đến
                             khi khách hàng yêu cầu hủy bỏ. Bên cạnh đó, trong thời gian lưu trữ thông tin, tất cả thông
                             tin cá nhân mà khách hàng cung cấp sẽ được bảo mật có mã hóa trên máy chủ của
-                            KIMLONGTRAVEL.COM.&nbsp;</p>
+                            GOLDMUTRAVEL.COM.&nbsp;</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin: 15px 0 15px 0;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 6. NHỮNG NGƯỜI HOẶC TỔ CHỨC CÓ THỂ ĐƯỢC TIẾP CẬN VỚI THÔNG TIN&nbsp;</span></strong>
                         </h2>
                         <h3 style="text-align: justify; margin: 0 0 15px 0;"><span style="font-size: 12pt;">6.1. Trường hợp có thể cung cấp thông tin&nbsp;</span>
                         </h3>
-                        <p style="text-align: justify;">KIMLONGTRAVEL.COM sẽ không tiết lộ thông tin cho các bên thứ ba khi
+                        <p style="text-align: justify;">GOLDMUTRAVEL.COM sẽ không tiết lộ thông tin cho các bên thứ ba khi
                             chưa có sự đồng ý của khách hàng. Tuy nhiên, chúng tôi có thể tiết lộ thông tin
                             của khách hàng cho các pháp nhân trong trường hợp:&nbsp;</p>
                         <p style="text-align: justify;">+ Những thông tin (tên, số điện thoại và email) là công
@@ -175,31 +175,31 @@
                         <p style="text-align: justify;">3) &nbsp; &nbsp;Các thông tin thanh toán: được bảo mật theo tiêu
                             chuẩn ngành.&nbsp;</p>
                         <p style="text-align: justify;">Trong trường hợp bất khả kháng, trường hợp máy chủ lưu trữ bị
-                            hacker tấn công dẫn đến mất mất dữ liệu cá nhân khách hàng. KIMLONGTRAVEL.COM sẽ thông báo cho cơ quan
+                            hacker tấn công dẫn đến mất mất dữ liệu cá nhân khách hàng. GOLDMUTRAVEL.COM sẽ thông báo cho cơ quan
                             chức năng để điều tra xử lý. Khi có kết quả sẽ thông báo cho khách hàng được biết.&nbsp;</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin: 15px 0 15px 0;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 8. CƠ CHẾ TIẾP NHẬN VÀ GIẢI QUYẾT KHIẾU NẠI CỦA NGƯỜI DÙNG LIÊN QUAN ĐẾN VIỆC THÔNG TIN CÁ NHÂN BỊ SỬ DỤNG SAI MỤC ĐÍCH HOẶC SAI PHẠM VI&nbsp;</span></strong>
                         </h2>
                         <p style="text-align: justify;">Khi phát hiện thông tin cá nhân của mình bị sử dụng sai mục đích
-                            hoặc phạm vi, khách hàng gửi khiếu nại đến Ban Quản trị KIMLONGTRAVEL.COM thông qua email <strong>cs@KIMLONG.vn</strong>
+                            hoặc phạm vi, khách hàng gửi khiếu nại đến Ban Quản trị GOLDMUTRAVEL.COM thông qua email <strong>cs@goldmu.vn</strong>
                             hoặc gọi điện thoại tới số <strong>1900636750</strong> (Phím số 2) để khiếu nại và cung cấp
                             chứng cứ liên quan tới vụ việc.&nbsp;</p>
-                        <p style="text-align: justify;">Sau khi tiếp nhận thông tin khiếu nại, KIMLONGTRAVEL sẽ xác nhận lại
-                            thông tin, có trách nhiệm giải quyết khiếu nại cho khách hàng. KIMLONGTRAVEL cam kết sẽ phản hồi ngay
+                        <p style="text-align: justify;">Sau khi tiếp nhận thông tin khiếu nại, GOLDMUTRAVEL sẽ xác nhận lại
+                            thông tin, có trách nhiệm giải quyết khiếu nại cho khách hàng. GOLDMUTRAVEL cam kết sẽ phản hồi ngay
                             lập tức hoặc muộn nhất là trong vòng 24 giờ làm việc kể từ thời điểm nhận được khiếu nại..&nbsp;</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin: 15px 0 15px 0;"><strong><span
                                     style="font-size: 12pt;">ĐIỀU 9. THÔNG TIN LIÊN HỆ CỦA ĐƠN VỊ THU THẬP VÀ QUẢN LÝ THÔNG TIN CÁ NHÂN&nbsp;</span></strong>
                         </h2>
                         <p style="text-align: justify;">Thông tin liên hệ trực tiếp của chúng tôi:&nbsp;</p>
-                        <p style="text-align: justify;">Công ty TNHH DỊCH VỤ THƯƠNG MẠI KIM LONG [KIMLONGTRAVEL.COM] – Xóm 9, Hải Vân, Hải Hậu, Nam Định</p>
-                        <p style="text-align: justify;">Hotline: 1900 20 53                   – Email: kimlongtravel102@gmail.com&nbsp;</p>
+                        <p style="text-align: justify;">Công ty TNHH DỊCH VỤ THƯƠNG MẠI GOLDMU [GOLDMUTRAVEL.COM] – Xóm 9, Hải Vân, Hải Hậu, Nam Định</p>
+                        <p style="text-align: justify;">Hotline: 1900 20 53                   – Email: goldmutravel102@gmail.com&nbsp;</p>
                         <h2 style="text-align: justify; color: #ff7d00; margin: 15px 0 15px 0;"><span
                                 style="font-size: 12pt;"><strong>ĐIỀU 10. CAM KẾT BẢO MẬT THÔNG TIN CÁ NHÂN KHÁCH HÀNG&nbsp;</strong></span>
                         </h2>
-                        <p style="text-align: justify;">KIMLONGTRAVEL.COM trân trọng quan hệ với khách hàng và người dùng. Chúng
+                        <p style="text-align: justify;">GOLDMUTRAVEL.COM trân trọng quan hệ với khách hàng và người dùng. Chúng
                             tôi nỗ lực đảm bảo cung cấp thông tin có trách nhiệm và hệ thống hoạt động chính xác.
-                            KIMLONGTRAVEL.COM muốn tạo sự riêng tư và thoải mái cho khách hàng khi truy cập sàn thương mại điện tử
-                            của chúng tôi. KIMLONGTRAVEL.COM mong muốn mang lại cảm giác an toàn cho khách hàng khi sử dụng dịch
+                            GOLDMUTRAVEL.COM muốn tạo sự riêng tư và thoải mái cho khách hàng khi truy cập sàn thương mại điện tử
+                            của chúng tôi. GOLDMUTRAVEL.COM mong muốn mang lại cảm giác an toàn cho khách hàng khi sử dụng dịch
                             vụ mua vé xe online. Chúng tôi cam kết bảo vệ tất cả thông tin mà chúng tôi nhận được từ
                             khách hàng. Để ngăn chặn truy cập trái phép, đảm bảo sử dụng đúng thông tin, chúng tôi sẽ sử
                             dụng các phương pháp và công nghệ bảo mật Internet hợp lý.&nbsp;</p>
@@ -207,19 +207,19 @@
                             đặt vé đều được bảo mật. Thông tin chỉ được tiết lộ cho các nhà cung cấp, điều hành hãng xe
                             có liên quan. Chúng tôi sẽ không tiết lộ, bán, chia sẻ hoặc để lộ thông tin của bạn cho một
                             bên thứ ba khác, sử dụng thông tin đúng phạm vi và mục đích.&nbsp;</p>
-                        <p style="text-align: justify;">KIMLONGTRAVEL.COM mong muốn mang lại cảm giác an toàn cho bạn khi sử dụng
+                        <p style="text-align: justify;">GOLDMUTRAVEL.COM mong muốn mang lại cảm giác an toàn cho bạn khi sử dụng
                             dịch vụ mua vé xe online. Chúng tôi cam kết bảo vệ tất cả thông tin mà chúng tôi nhận được
                             từ bạn. Để ngăn chặn truy cập trái phép, đảm bảo sử dụng đúng thông tin, chúng tôi sẽ sử
                             dụng các phương pháp và công nghệ bảo mật Internet hợp lý.&nbsp;</p>
                         <p style="text-align: justify;">Trong trường hợp có bất cứ sự cố nào phát sinh trong quá trình
-                            sử dụng dịch vụ như nhà xe hủy chuyến, nhà xe không có thông tin khách,… KIMLONGTRAVEL.COM sẽ cố gắng
+                            sử dụng dịch vụ như nhà xe hủy chuyến, nhà xe không có thông tin khách,… GOLDMUTRAVEL.COM sẽ cố gắng
                             hỗ trợ khách hàng tìm dịch vụ thay thế tùy thuộc vào các lựa chọn sẵn có. Trong trường hợp
-                            không có dịch vụ thay thế nào, KIMLONGTRAVEL.COM cam kết sẽ có chính sách bồi hoàn thỏa đáng, và sẽ
+                            không có dịch vụ thay thế nào, GOLDMUTRAVEL.COM cam kết sẽ có chính sách bồi hoàn thỏa đáng, và sẽ
                             được điều chỉnh theo từng trường hợp cụ thể.&nbsp;</p>
                         <p style="text-align: justify;">Chính sách bảo mật thông tin có thể thay đổi theo thời gian hoặc
                             tình hình thực tế. Chúng tôi có quyền sửa đổi chính sách bảo mật thông tin cá nhân bất cứ
                             lúc nào và không cần thông báo trước. Quy định này không phải là một hợp đồng có hiệu lực
-                            pháp lý. Nhưng, KIMLONGTRAVEL.COM cam kết tuân theo quy định này để bảo vệ tất cả dữ liệu thông tin
+                            pháp lý. Nhưng, GOLDMUTRAVEL.COM cam kết tuân theo quy định này để bảo vệ tất cả dữ liệu thông tin
                             của khách hàng.</p></div>
                 </div>
             </div>
